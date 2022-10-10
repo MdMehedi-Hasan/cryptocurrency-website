@@ -1,1025 +1,945 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="Assets/images/btc.png"
-            type="image/x-icon">
-        <link rel="stylesheet" href="Assets/styles.css">
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css"
-            rel="stylesheet" type="text/css" />
-        <!-- Countdown attachments-->
-        <link rel="stylesheet"
-            href="Assets/flipclock.css" />
-        <script
-            src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script src="Assets/flipclock.min.js"></script>
-        <!-- ------ -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script
-            src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-        <script src="Assets/script.js"></script>
-        <title>Cryptic-Cryptocurrency website</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/images/btc.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <!-- Countdown attachments-->
+    <link rel="stylesheet" href="Assets/flipclock.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="Assets/flipclock.min.js"></script>
+    <!-- ------ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="Assets/script.js"></script>
+    <title>Cryptic-Cryptocurrency website</title>
+</head>
 
-    <body>
-        <!-- <marquee behavior="" direction="left" class="fixed bottom-0 bg-[#FDE200]">hello I am Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iusto ipsam explicabo magni aliquid animi expedita rem maxime maiores quos architecto hic, soluta eos esse blanditiis accusamus praesentium provident fugit?</marquee> -->
-        <!--============================ Navbar ===================================-->
-        <div class="navbar h-28 bg-[#252525] text-white px-8 gap-28">
-            <div class="flex-1">
-                <a class=""><img src="Assets/images/logo.png" alt=""
-                        class="w-32"></a>
+<body>
+    <!-- <marquee behavior="" direction="left" class="fixed bottom-0 bg-[#FDE200]">hello I am Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iusto ipsam explicabo magni aliquid animi expedita rem maxime maiores quos architecto hic, soluta eos esse blanditiis accusamus praesentium provident fugit?</marquee> -->
+    <!--============================ Navbar ===================================-->
+    <div class="navbar h-28 bg-[#252525] text-white px-8 gap-28">
+        <div class="flex-1">
+            <a class=""><img src="Assets/images/logo.png" alt="" class="w-32"></a>
+        </div>
+        <div>
+            <ul class="menu menu-horizontal p-0 font-bold">
+                <li tabindex="0">
+                    <a class="p-0 px-2">
+                        Home
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </a>
+                    <ul class="bg-base-100 text-black">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li tabindex="0">
+                    <a class="p-0 px-2">
+                        Shortcodes
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </a>
+                    <ul class="bg-base-100 text-black">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li tabindex="0">
+                    <a class="p-0 px-2">
+                        Pages
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </a>
+                    <ul class="bg-base-100 text-black">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li tabindex="0">
+                    <a class="p-0 px-2">
+                        ICO
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </a>
+                    <ul class="bg-base-100 text-black">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+                <li tabindex="0">
+                    <a class="p-0 px-2 pr-4">
+                        IEO
+                    </a>
+                </li>
+                <li tabindex="0">
+                    <a class="p-0 px-2">
+                        NFT Marketplace
+                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24">
+                            <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                        </svg>
+                    </a>
+                    <ul class="bg-base-100 text-black">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="flex-none gap-11">
+            <div class="border-l-2 opacity-50">
+                <iconify-icon class="text-2xl mx-1 ml-5" icon="akar-icons:discord-fill"></iconify-icon>
+                <iconify-icon class="text-2xl mx-1" icon="akar-icons:telegram-fill"></iconify-icon>
+                <iconify-icon class="text-2xl mx-1" icon="akar-icons:facebook-fill"></iconify-icon>
+                <iconify-icon class="text-2xl mx-1" icon="akar-icons:twitter-fill"></iconify-icon>
             </div>
-            <div>
-                <ul class="menu menu-horizontal p-0 font-bold">
-                    <li tabindex="0">
-                        <a class="p-0 px-2">
-                            Home
-                            <svg class="fill-current"
-                                xmlns="http://www.w3.org/2000/svg" width="20"
-                                height="20"
-                                viewBox="0 0 24 24">
-                                <path
-                                    d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                    />
-                                </svg>
-                            </a>
-                            <ul class="bg-base-100 text-black">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li tabindex="0">
-                            <a class="p-0 px-2">
-                                Shortcodes
-                                <svg class="fill-current"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="20" height="20"
-                                    viewBox="0 0 24 24">
-                                    <path
-                                        d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                        />
-                                    </svg>
-                                </a>
-                                <ul class="bg-base-100 text-black">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li tabindex="0">
-                                <a class="p-0 px-2">
-                                    Pages
-                                    <svg class="fill-current"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="20" height="20"
-                                        viewBox="0 0 24 24">
-                                        <path
-                                            d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                            />
-                                        </svg>
-                                    </a>
-                                    <ul class="bg-base-100 text-black">
-                                        <li><a>Submenu 1</a></li>
-                                        <li><a>Submenu 2</a></li>
-                                    </ul>
-                                </li>
-                                <li tabindex="0">
-                                    <a class="p-0 px-2">
-                                        ICO
-                                        <svg class="fill-current"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="20" height="20"
-                                            viewBox="0 0 24 24">
-                                            <path
-                                                d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                                />
-                                            </svg>
-                                        </a>
-                                        <ul class="bg-base-100 text-black">
-                                            <li><a>Submenu 1</a></li>
-                                            <li><a>Submenu 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li tabindex="0">
-                                        <a class="p-0 px-2 pr-4">
-                                            IEO
-                                        </a>
-                                    </li>
-                                    <li tabindex="0">
-                                        <a class="p-0 px-2">
-                                            NFT Marketplace
-                                            <svg class="fill-current"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                width="20" height="20"
-                                                viewBox="0 0 24 24">
-                                                <path
-                                                    d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"
-                                                    />
-                                                </svg>
-                                            </a>
-                                            <ul class="bg-base-100 text-black">
-                                                <li><a>Submenu 1</a></li>
-                                                <li><a>Submenu 2</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="flex-none gap-11">
-                                    <div class="border-l-2 opacity-50">
-                                        <iconify-icon class="text-2xl mx-1 ml-5"
-                                            icon="akar-icons:discord-fill"></iconify-icon>
-                                        <iconify-icon class="text-2xl mx-1"
-                                            icon="akar-icons:telegram-fill"></iconify-icon>
-                                        <iconify-icon class="text-2xl mx-1"
-                                            icon="akar-icons:facebook-fill"></iconify-icon>
-                                        <iconify-icon class="text-2xl mx-1"
-                                            icon="akar-icons:twitter-fill"></iconify-icon>
-                                    </div>
-                                    <div class="opacity-100">
-                                        <iconify-icon class="text-2xl mx-1"
-                                            icon="fa:search"></iconify-icon>
-                                        <iconify-icon class="text-2xl mx-1"
-                                            icon="ion:person-add-sharp"
-                                            flip="horizontal"></iconify-icon>
-                                        <iconify-icon class="text-2xl mx-1"
-                                            class="text-2xl"
-                                            icon="charm:menu-hamburger"></iconify-icon>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--============================ Navbar end ================================-->
-                            <!-- =========================== Header section ============================-->
-                            <div
-                                class="bg-[url(Assets/images/yellowbackground.jpg)]
-                                flex justify-around py-24">
-                                <div class="w-5/12">
-                                    <h1 class="text-5xl leading-snug"><span
-                                            class="font-bold">Cryptic</span> The
-                                        <span
-                                            class="font-bold">Revolution</span>
-                                        In <br>
-                                        Virtual <span class="font-bold">Coin</span></h1>
-                                    <p class="my-10">Buy now and get +40% extra
-                                        bonus Minimum pre-sale amount 25 Cryptic
-                                        Coin. We accept BTC
-                                        crypto-currency.
-                                    </p>
-                                    <button class="btn uppercase rounded">Whitepaper</button>
-                                </div>
-                                <div class="flex flex-col items-center bg-black
-                                    text-white w-auto">
-                                    <p>Distribution Ends In:</p>
-                                    <!-- <div><p id="demo"></p></div> -->
-                                    <div class="clock"></div>
-                                    <div class="message"></div>
-                                    <button class="btn">Buy tokens</button>
-                                    <progress class="progress progress-warning
-                                        w-56 bg-white" value="10" max="100"></progress>
-                                    <p>Total Tokens: 8833.0122</p>
-                                    <p>Tokens In Circulation: 4103.3011</p>
-                                    <p>Token Price: $0.0023</p>
-                                </div>
-                            </div>
-                            <!-- =========================== Header section/end ========================-->
-                            <!-- =========================== Live chart section ========================-->
-                            <div class="bg-[url(Assets/images/network.jpg)]
-                                bg-cover bg-center bg-no-repeat py-28">
-                                <h1 class="text-center text-3xl font-bold
-                                    uppercase">CRYPTOCURRENCY LIVE PRICE TABLES</h1>
-                                <div class="w-28 mx-auto flex justify-between
-                                    mt-3 mb-5">
-                                    <div class="bg-black rounded-lg border
-                                        border-black h-1 w-2"></div>
-                                    <div class="bg-black rounded-lg border
-                                        border-black h-1 w-4"></div>
-                                    <div class="bg-black rounded-lg border
-                                        border-black h-1 w-5"></div>
-                                    <div class="bg-black rounded-lg border
-                                        border-black h-1 w-12"></div>
-                                </div>
-                                <p class="text-center text-slate-500 mt-7 mb-8">Minimum
-                                    purchase is 50 Coins tokens. Get a bonus
-                                    from 5% to 25%
-                                    <br>
-                                    on every token purchase
-                                </p>
-                                <div class="mx-14 grid grid-cols-4 gap-10
-                                    my-24">
-                                    <div class="card rounded bg-[#FFEB3B]
-                                        items-center">
-                                        <div class="card-body items-center">
-                                            <iconify-icon icon="cib:bitcoin"></iconify-icon>
-                                            <p>Bitcoin</p>
-                                        </div>
-                                    </div>
-                                    <div class="card rounded bg-black text-white
-                                        items-center">
-                                        <div class="card-body items-center">
-                                            <iconify-icon icon="cib:bitcoin"></iconify-icon>
-                                            <p>Bitcoin</p>
-                                        </div>
-                                    </div>
-                                    <div class="card rounded bg-[#FFEB3B]
-                                        items-center">
-                                        <div class="card-body items-center">
-                                            <iconify-icon icon="cib:bitcoin"></iconify-icon>
-                                            <p>Bitcoin</p>
-                                        </div>
-                                    </div>
-                                    <div class="card rounded bg-black text-white
-                                        items-center">
-                                        <div class="card-body items-center">
-                                            <iconify-icon icon="cib:bitcoin"></iconify-icon>
-                                            <p>Bitcoin</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="h-[1000px] bg-black mx-14">
+            <div class="opacity-100">
+                <iconify-icon class="text-2xl mx-1" icon="fa:search"></iconify-icon>
+                <iconify-icon class="text-2xl mx-1" icon="ion:person-add-sharp" flip="horizontal"></iconify-icon>
+                <iconify-icon class="text-2xl mx-1" class="text-2xl" icon="charm:menu-hamburger"></iconify-icon>
+            </div>
+        </div>
+    </div>
+    <!--============================ Navbar end ================================-->
+    <!-- =========================== Header section ============================-->
+    <div class="bg-[url(Assets/images/yellowbackground.jpg)]
+                                flex justify-around items-center py-24">
+        <div class="w-5/12">
+            <h1 class="text-5xl leading-snug"><span class="font-bold">Cryptic</span> The
+                <span class="font-bold">Revolution</span>
+                In <br>
+                Virtual <span class="font-bold">Coin</span>
+            </h1>
+            <p class="my-10">Buy now and get +40% extra
+                bonus Minimum pre-sale amount 25 Cryptic
+                Coin. We accept BTC
+                crypto-currency.
+            </p>
+            <button class="btn uppercase rounded">Whitepaper</button>
+        </div>
+        <div class="flex flex-col items-center bg-black
+                                    text-white w-auto px-5 py-8">
+            <p class="my-5">Distribution Ends In:</p>
+            <!-- <div><p id="demo"></p></div> -->
+            <div class="clock"></div>
+            <div class="flex w-full text-sm opacity-80">
+                <span class="block ml-20 mr-16">Days</span>
+                <span class="block ml-12 mr-20">Hours</span>
+                <span class="block mr-20">Minutes</span>
+                <span class="block">Seconds</span>
+            </div>
+            <div class="message"></div>
+            <button
+                class="btn bg-[#FED500] hover:bg-[#FED500] rounded px-8 py-3 h-auto text-black text-lg font-light my-5">Buy
+                tokens</button>
+            <div class="w-full">
+                <label for="token-bar" class="text-left">Softcap in 976 days</label>
+                <div class="w-full bg-white dark:bg-gray-700 rounded" id="token-bar">
+                    <div class="bg-[#FED500] text-xs font-medium text-black text-center p-0.5 leading-none rounded py-2"
+                        style="width: 35%"> $35</div>
+                </div>
+                <span class="text-right block">Hardcap</span>
+            </div>
 
-                                </div>
-                            </div>
-                            <!-- =========================== Live chart section/end ====================-->
-                            <!-- =========================== ICO section ===============================-->
-                            <div class="bg-[url(Assets/images/currency-2.jpg)]
+            <p class="leading-loose opacity-90">Total Tokens: <b>8833.0122</b></p>
+            <p class="leading-loose opacity-90">Tokens In Circulation: <b>4103.3011</b></p>
+            <p class="leading-loose opacity-90">Token Price: <b>$0.0023</b></p>
+        </div>
+    </div>
+    <!-- =========================== Header section/end ========================-->
+    <!-- =========================== Live chart section ========================-->
+    <div class="bg-[url(Assets/images/network.jpg)]
+                                bg-cover bg-center bg-no-repeat py-28">
+        <h1 class="text-center text-3xl font-bold
+                                    uppercase">CRYPTOCURRENCY LIVE PRICE TABLES</h1>
+        <div class="w-28 mx-auto flex justify-between
+                                    mt-3 mb-5">
+            <div class="bg-black rounded-lg border
+                                        border-black h-1 w-2"></div>
+            <div class="bg-black rounded-lg border
+                                        border-black h-1 w-4"></div>
+            <div class="bg-black rounded-lg border
+                                        border-black h-1 w-5"></div>
+            <div class="bg-black rounded-lg border
+                                        border-black h-1 w-12"></div>
+        </div>
+        <p class="text-center text-slate-500 mt-7 mb-8">Minimum
+            purchase is 50 Coins tokens. Get a bonus
+            from 5% to 25%
+            <br>
+            on every token purchase
+        </p>
+        <div class="mx-14 grid grid-cols-4 gap-10
+                                    my-24">
+            <div class="card rounded bg-[#FFEB3B]
+                                        items-center">
+                <div class="card-body items-center">
+                    <iconify-icon icon="cib:bitcoin"></iconify-icon>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="card rounded bg-black text-white
+                                        items-center">
+                <div class="card-body items-center">
+                    <iconify-icon icon="cib:bitcoin"></iconify-icon>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="card rounded bg-[#FFEB3B]
+                                        items-center">
+                <div class="card-body items-center">
+                    <iconify-icon icon="cib:bitcoin"></iconify-icon>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="card rounded bg-black text-white
+                                        items-center">
+                <div class="card-body items-center">
+                    <iconify-icon icon="cib:bitcoin"></iconify-icon>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+        </div>
+        <div class="h-[1000px] bg-black mx-14">
+
+        </div>
+    </div>
+    <!-- =========================== Live chart section/end ====================-->
+    <!-- =========================== ICO section ===============================-->
+    <div class="bg-[url(Assets/images/currency-2.jpg)]
                                 text-white opacity-100 bg-cover bg-no-repeat
                                 bg-center py-24">
-                                <h1 class="text-center text-3xl font-bold
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">Time until ico close</h1>
-                                <div class="w-28 mx-auto flex justify-between
+        <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-                                    <div class="bg-white rounded-lg border
+            <div class="bg-white rounded-lg border
                                         border-black h-1 w-2"></div>
-                                    <div class="bg-white rounded-lg border
+            <div class="bg-white rounded-lg border
                                         border-black h-1 w-4"></div>
-                                    <div class="bg-white rounded-lg border
+            <div class="bg-white rounded-lg border
                                         border-black h-1 w-5"></div>
-                                    <div class="bg-white rounded-lg border
+            <div class="bg-white rounded-lg border
                                         border-black h-1 w-12"></div>
-                                </div>
-                                <p class="text-center text-slate-500 mb-12">Minimum
-                                    purchase is 50 Coins tokens. Get a bonus
-                                    from 5% to 25%
-                                    <br>on every token purchase
-                                </p>
-                                <!-- Countdown -->
-                                <div class="grid grid-cols-4 text-center gap-10
+        </div>
+        <p class="text-center text-slate-500 mb-12">Minimum
+            purchase is 50 Coins tokens. Get a bonus
+            from 5% to 25%
+            <br>on every token purchase
+        </p>
+        <!-- Countdown -->
+        <div class="grid grid-cols-4 text-center gap-10
                                     mx-28">
-                                    <div class="border border-3 border-white
+            <div class="border border-3 border-white
                                         px-5 py-10 bg-transparent">
-                                        <h1 class="text-6xl font-bold">110</h1>
-                                        <p>Days</p>
-                                    </div>
-                                    <div class="border border-3 border-white
+                <h1 class="text-6xl font-bold">110</h1>
+                <p>Days</p>
+            </div>
+            <div class="border border-3 border-white
                                         px-5 py-10 bg-transparent">
-                                        <h1 class="text-6xl font-bold">09</h1>
-                                        <p>Hours</p>
-                                    </div>
-                                    <div class="border border-3 border-white
+                <h1 class="text-6xl font-bold">09</h1>
+                <p>Hours</p>
+            </div>
+            <div class="border border-3 border-white
                                         px-5 py-10 bg-transparent">
-                                        <h1 class="text-6xl font-bold">51</h1>
-                                        <p>Minutes</p>
-                                    </div>
-                                    <div class="border border-3 border-white
+                <h1 class="text-6xl font-bold">51</h1>
+                <p>Minutes</p>
+            </div>
+            <div class="border border-3 border-white
                                         px-5 py-10 bg-transparent">
-                                        <h1 class="text-6xl font-bold">27</h1>
-                                        <p>Seconds</p>
-                                    </div>
-                                </div>
-                                <!-- countdown end -->
-                                <div class="flex items-center flex-col">
-                                    <p class="mt-14 uppercase font-bold mb-3">TOTAL
-                                        TOKENS BOUGHT</p>
-                                    <h1 class="text-6xl font-bold">91, 258, 141</h1>
-                                    <p class="mt-3 mb-6 uppercase font-bold">1
-                                        COIN = 0,3 USD</p>
-                                    <button class="btn uppercase px-10 py-2
+                <h1 class="text-6xl font-bold">27</h1>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <!-- countdown end -->
+        <div class="flex items-center flex-col">
+            <p class="mt-14 uppercase font-bold mb-3">TOTAL
+                TOKENS BOUGHT</p>
+            <h1 class="text-6xl font-bold">91, 258, 141</h1>
+            <p class="mt-3 mb-6 uppercase font-bold">1
+                COIN = 0,3 USD</p>
+            <button class="btn uppercase px-10 py-2
                                         h-auto">Buy coin</button>
-                                </div>
-                            </div>
-                            <!-- =========================== ICO section/end ===========================-->
-                            <!-- =========================== ICO close section =========================-->
-                            <div class="py-24
+        </div>
+    </div>
+    <!-- =========================== ICO section/end ===========================-->
+    <!-- =========================== ICO close section =========================-->
+    <div class="py-24
                                 bg-[url(Assets/images/network.jpg)] bg-cover
                                 bg-left px-10">
-                                <h1 class="text-center text-3xl font-bold
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">TIME UNTIL ICO CLOSE</h1>
-                                <div class="w-28 mx-auto flex justify-between
+        <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-2"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-4"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-5"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-8"></div>
-                                </div>
-                                <p class="text-center text-slate-500 mt-7 mb-8">Minimum
-                                    purchase is 50 Coins tokens. Get a bonus
-                                    from 5% to 25%
-                                    <br>
-                                    on every token purchase
-                                </p>
-                                <div class="flex py-10">
-                                    <img
-                                        src="Assets/images/currrency-choose-wallet.png"
-                                        alt="">
-                                    <div class="ml-8">
-                                        <h1 class="text-2xl font-bold mb-6">Choose
-                                            what goes into your wallet</h1>
-                                        <p>There is a myriad of coins worth the
-                                            investment. Do your market research
-                                            and find the best
-                                            cryptocurrency for your pocket.</p>
-                                    </div>
-                                </div>
-                                <div class="flex py-10 justify-end">
-                                    <img src="Assets/images/wallet-2.png"
-                                        alt="">
-                                    <div class="ml-8">
-                                        <h1 class="text-2xl font-bold mb-6">Get
-                                            Coin to a Wallet</h1>
-                                        <p>The steps are as clear-cut as
-                                            anything. Turn your fiat money into
-                                            cryptomoney in seconds.</p>
-                                    </div>
-                                </div>
-                                <div class="flex py-10">
-                                    <img src="Assets/images/wallet-3.png"
-                                        alt="">
-                                    <div class="ml-8">
-                                        <h1 class="text-2xl font-bold mb-6">Send/Receive
-                                            with Wallet</h1>
-                                        <p>Enjoy the perks of anonimity and
-                                            cryptography and start using
-                                            Blockchain technology to exchange
-                                            money.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- =========================== ICO close section/end =====================-->
-                            <!-- =========================== ICO section/end ===========================-->
-                            <!-- =========================== state section =============================-->
-                            <div class="flex justify-around text-center
+        </div>
+        <p class="text-center text-slate-500 mt-7 mb-8">Minimum
+            purchase is 50 Coins tokens. Get a bonus
+            from 5% to 25%
+            <br>
+            on every token purchase
+        </p>
+        <div class="flex py-10">
+            <img src="Assets/images/currrency-choose-wallet.png" alt="">
+            <div class="ml-8">
+                <h1 class="text-2xl font-bold mb-6">Choose
+                    what goes into your wallet</h1>
+                <p>There is a myriad of coins worth the
+                    investment. Do your market research
+                    and find the best
+                    cryptocurrency for your pocket.</p>
+            </div>
+        </div>
+        <div class="flex py-10 justify-end">
+            <img src="Assets/images/wallet-2.png" alt="">
+            <div class="ml-8">
+                <h1 class="text-2xl font-bold mb-6">Get
+                    Coin to a Wallet</h1>
+                <p>The steps are as clear-cut as
+                    anything. Turn your fiat money into
+                    cryptomoney in seconds.</p>
+            </div>
+        </div>
+        <div class="flex py-10">
+            <img src="Assets/images/wallet-3.png" alt="">
+            <div class="ml-8">
+                <h1 class="text-2xl font-bold mb-6">Send/Receive
+                    with Wallet</h1>
+                <p>Enjoy the perks of anonimity and
+                    cryptography and start using
+                    Blockchain technology to exchange
+                    money.</p>
+            </div>
+        </div>
+    </div>
+    <!-- =========================== ICO close section/end =====================-->
+    <!-- =========================== ICO section/end ===========================-->
+    <!-- =========================== state section =============================-->
+    <div class="flex justify-around text-center
                                 text-white bg-[url(Assets/images/counter.jpeg)]
                                 py-32 font-bold">
-                                <div>
-                                    <h1 class="text-6xl">258</h1>
-                                    <div class="w-12 bg-[#FFD600] rounded
+        <div>
+            <h1 class="text-6xl">258</h1>
+            <div class="w-12 bg-[#FFD600] rounded
                                         mx-auto h-1 mt-2 mb-5"></div>
-                                    <p>Transactions in last 24h</p>
-                                </div>
-                                <div>
-                                    <h1 class="text-6xl">14</h1>
-                                    <div class="w-12 bg-[#FFD600] rounded
+            <p>Transactions in last 24h</p>
+        </div>
+        <div>
+            <h1 class="text-6xl">14</h1>
+            <div class="w-12 bg-[#FFD600] rounded
                                         mx-auto h-1 mt-2 mb-5"></div>
-                                    <p>Transactions per hour</p>
-                                </div>
-                                <div>
-                                    <h1 class="text-6xl">120</h1>
-                                    <div class="w-12 bg-[#FFD600] rounded
+            <p>Transactions per hour</p>
+        </div>
+        <div>
+            <h1 class="text-6xl">120</h1>
+            <div class="w-12 bg-[#FFD600] rounded
                                         mx-auto h-1 mt-2 mb-5"></div>
-                                    <p>Largest Transactions</p>
-                                </div>
-                                <div>
-                                    <h1 class="text-6xl">5</h1>
-                                    <div class="w-12 bg-[#FFD600] rounded
+            <p>Largest Transactions</p>
+        </div>
+        <div>
+            <h1 class="text-6xl">5</h1>
+            <div class="w-12 bg-[#FFD600] rounded
                                         mx-auto h-1 mt-2 mb-5"></div>
-                                    <p>Years of Experience</p>
-                                </div>
-                            </div>
-                            <!-- =========================== state section/end =========================-->
-                            <!-- =========================== Steps section =============================-->
-                            <div class="bg-[url(Assets/images/map-bg-part.jpg)]
+            <p>Years of Experience</p>
+        </div>
+    </div>
+    <!-- =========================== state section/end =========================-->
+    <!-- =========================== Steps section =============================-->
+    <div class="bg-[url(Assets/images/map-bg-part.jpg)]
                                 bg-cover bg-no-repeat pt-20">
-                                <h1 class="text-center text-3xl font-bold
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">Milestones</h1>
-                                <div class="w-28 mx-auto flex justify-between
+        <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-2"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-4"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-5"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-8"></div>
-                                </div>
-                                <p class="text-center text-slate-500">Minimum
-                                    purchase is 50 Coins tokens. Get a bonus
-                                    from 5% to 25% <br>
-                                    on every token purchase</p>
-                                <!-- stepper container -->
-                                <div class="d-grid justify-center py-24">
-                                    <div class="flex flex-col items-end">
-                                        <div class="bg-white text-right w-8/12
+        </div>
+        <p class="text-center text-slate-500">Minimum
+            purchase is 50 Coins tokens. Get a bonus
+            from 5% to 25% <br>
+            on every token purchase</p>
+        <!-- stepper container -->
+        <div class="d-grid justify-center py-24">
+            <div class="flex flex-col items-end">
+                <div class="bg-white text-right w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md mt-2">
-                                            <h1 class="text-3xl font-bold">Pre-ICO</h1>
-                                            <p class="my-4">Every idea has to
-                                                start somewhere. For us, this
-                                                was inception.</p>
-                                            <button class="btn bg-zinc-900
+                    <h1 class="text-3xl font-bold">Pre-ICO</h1>
+                    <p class="my-4">Every idea has to
+                        start somewhere. For us, this
+                        was inception.</p>
+                    <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                                        </div>
-                                        <span class="mt-20 text-2xl opacity-50">Feb
-                                            15th, 2022</span>
-                                        <div class="bg-white text-right w-8/12
+                </div>
+                <span class="mt-20 text-2xl opacity-50">Feb
+                    15th, 2022</span>
+                <div class="bg-white text-right w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                                            <h1 class="text-3xl font-bold">CHP
-                                                launch on Cryptic</h1>
-                                            <p class="my-4">The release of our
-                                                long-awaited token.</p>
-                                            <button class="btn bg-zinc-900
+                    <h1 class="text-3xl font-bold">CHP
+                        launch on Cryptic</h1>
+                    <p class="my-4">The release of our
+                        long-awaited token.</p>
+                    <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                                        </div>
-                                        <span class="mt-24 text-2xl opacity-50">Mar
-                                            4th, 2022</span>
-                                        <div class="bg-white text-right w-8/12
+                </div>
+                <span class="mt-24 text-2xl opacity-50">Mar
+                    4th, 2022</span>
+                <div class="bg-white text-right w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                                            <h1 class="text-3xl font-bold">Mobile
-                                                Application</h1>
-                                            <p class="my-4">You know the famed
-                                                Steve Jobs saying ”There’s an
-                                                app for that?”. Of course, there
-                                                had to be an app for Cryptic as
-                                                well.</p>
-                                            <button class="btn bg-zinc-900
+                    <h1 class="text-3xl font-bold">Mobile
+                        Application</h1>
+                    <p class="my-4">You know the famed
+                        Steve Jobs saying ”There’s an
+                        app for that?”. Of course, there
+                        had to be an app for Cryptic as
+                        well.</p>
+                    <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <!-- Milestone middle steps -->
-                                        <div class="flex flex-col items-center
+                </div>
+            </div>
+            <div>
+                <!-- Milestone middle steps -->
+                <div class="flex flex-col items-center
                                             relative gap-56 h-full">
-                                            <div class="h-full w-1 bg-[#FFD600]
+                    <div class="h-full w-1 bg-[#FFD600]
                                                 absolute z-0"></div>
-                                            <div class="icon-shadow bg-zinc-900
+                    <div class="icon-shadow bg-zinc-900
                                                 text-[#FFD600] rounded-full p-2
                                                 z-50 w-18 h-18 flex items-center
-                                                justify-center"><img
-                                                    src="Assets/images/cryptic-icon.png"
-                                                    alt=""></div>
-                                            <div class="icon-shadow bg-zinc-900
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                    <div class="icon-shadow bg-zinc-900
                                                 text-[#FFD600] rounded-full p-2
                                                 z-50 w-18 h-18 flex items-center
-                                                justify-center"><img
-                                                    src="Assets/images/cryptic-icon.png"
-                                                    alt=""></div>
-                                            <div class="icon-shadow bg-zinc-900
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                    <div class="icon-shadow bg-zinc-900
                                                 text-[#FFD600] rounded-full p-2
                                                 z-50 w-18 h-18 flex items-center
-                                                justify-center"><img
-                                                    src="Assets/images/cryptic-icon.png"
-                                                    alt=""></div>
-                                            <div class="icon-shadow bg-zinc-900
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                    <div class="icon-shadow bg-zinc-900
                                                 text-[#FFD600] rounded-full p-2
                                                 z-50 w-18 h-18 flex items-center
-                                                justify-center"><img
-                                                    src="Assets/images/cryptic-icon.png"
-                                                    alt=""></div>
-                                            <div class="icon-shadow bg-zinc-900
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                    <div class="icon-shadow bg-zinc-900
                                                 text-[#FFD600] rounded-full p-2
                                                 z-50 w-18 h-18 flex items-center
-                                                justify-center"><img
-                                                    src="Assets/images/cryptic-icon.png"
-                                                    alt=""></div>
-                                        </div>
-                                        <!-- ======================= -->
-                                    </div>
-                                    <div class="flex flex-col">
-                                        <span class="mt-5 text-2xl opacity-50">Jan
-                                            15th, 2022</span>
-                                        <div class="bg-white w-8/12 pl-5 pr-16
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                </div>
+                <!-- ======================= -->
+            </div>
+            <div class="flex flex-col">
+                <span class="mt-5 text-2xl opacity-50">Jan
+                    15th, 2022</span>
+                <div class="bg-white w-8/12 pl-5 pr-16
                                             pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                                            <h1 class="text-3xl font-bold">Cryptic
-                                                ICO</h1>
-                                            <p class="my-4">With a userbase of
-                                                200 members, we were only just
-                                                setting up camp.</p>
-                                            <button class="btn bg-zinc-900
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                                        </div>
-                                        <span class="mt-16 text-2xl opacity-50">Feb
-                                            22nd, 2022</span>
-                                        <div class="bg-white w-8/12 pl-5 pr-16
+                </div>
+                <span class="mt-16 text-2xl opacity-50">Feb
+                    22nd, 2022</span>
+                <div class="bg-white w-8/12 pl-5 pr-16
                                             pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                                            <h1 class="text-3xl font-bold">Cryptic
-                                                Listed in Exchanges</h1>
-                                            <p class="my-4">A reason to say
-                                                „Started from the bottom, now
-                                                we’re here.”</p>
-                                            <button class="btn bg-zinc-900
+                    <h1 class="text-3xl font-bold">Cryptic
+                        Listed in Exchanges</h1>
+                    <p class="my-4">A reason to say
+                        „Started from the bottom, now
+                        we’re here.”</p>
+                    <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                                        </div>
-                                        <span class="mt-10 text-2xl opacity-50">Apr
-                                            15th, 2022</span>
-                                    </div>
-                                </div>
+                </div>
+                <span class="mt-10 text-2xl opacity-50">Apr
+                    15th, 2022</span>
+            </div>
+        </div>
 
-                            </div>
-                            <!-- =========================== Steps section/end =========================-->
-                            <!-- =========================== coin calculator section ===================-->
-                            <div class="bg-gradient-to-r from-[#FFD600]
+    </div>
+    <!-- =========================== Steps section/end =========================-->
+    <!-- =========================== coin calculator section ===================-->
+    <div class="bg-gradient-to-r from-[#FFD600]
                                 to-[#FDE200] py-20 px-16">
-                                <h1 class="text-center text-3xl font-bold
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">COIN CALCULATOR</h1>
-                                <div class="w-28 mx-auto flex justify-between
+        <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-2"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-4"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-5"></div>
-                                    <div class="bg-black rounded-lg border
+            <div class="bg-black rounded-lg border
                                         border-black h-1 w-8"></div>
-                                </div>
-                                <p class="text-center text-zinc-600">Minimum
-                                    purchase is 50 Coins tokens. Get a bonus
-                                    from 5% to 25% <br>
-                                    on every token purchase</p>
-                                <div class="flex my-8 items-center">
-                                    <div>
-                                        <p class="mb-7 text-zinc-600">No more
-                                            hassle. <br>
-                                            You don’t have to be constantly
-                                            searching the web to get price
-                                            updates. Just use our coin
-                                            calculator
-                                            and simply get the desired result
-                                            with a simple click.</p>
-                                        <p class="text-zinc-600">From bitcoin,
-                                            to ripple, to litecoin… You just
-                                            select your weapons and we’ll
-                                            explain the
-                                            technicalities.</p>
-                                        <form class="flex items-center gap-6
+        </div>
+        <p class="text-center text-zinc-600">Minimum
+            purchase is 50 Coins tokens. Get a bonus
+            from 5% to 25% <br>
+            on every token purchase</p>
+        <div class="flex my-8 items-center">
+            <div>
+                <p class="mb-7 text-zinc-600">No more
+                    hassle. <br>
+                    You don’t have to be constantly
+                    searching the web to get price
+                    updates. Just use our coin
+                    calculator
+                    and simply get the desired result
+                    with a simple click.</p>
+                <p class="text-zinc-600">From bitcoin,
+                    to ripple, to litecoin… You just
+                    select your weapons and we’ll
+                    explain the
+                    technicalities.</p>
+                <form class="flex items-center gap-6
                                             mt-10">
-                                            <input type="text" class="input
+                    <input type="text" class="input
                                                 input-bordered text-center
                                                 text-white bg-black w-24
-                                                rounded"
-                                                value="1" />
-                                            <label for="" class="font-bold">BTC
-                                                =</label>
-                                            <input type="text" class="input
+                                                rounded" value="1" />
+                    <label for="" class="font-bold">BTC
+                        =</label>
+                    <input type="text" class="input
                                                 input-bordered text-center
                                                 text-white bg-black w-36
-                                                rounded"
-                                                value="20,000" />
-                                            <select class="select w-24 max-w-xs
+                                                rounded" value="20,000" />
+                    <select class="select w-24 max-w-xs
                                                 text-white bg-black border-0
                                                 rounded">
-                                                <option>USD</option>
-                                                <option>EUR</option>
-                                            </select>
-                                        </form>
-                                    </div>
-                                    <img src="Assets/images/laptop.png" alt=""
-                                        class="w-8/12">
-                                </div>
-                            </div>
-                            <!-- =========================== coin calculator section/end ===============-->
-                            <!-- =========================== News section ==============================-->
-                            <div class="bg-slate-50 py-20">
-                                <h1 class="text-center text-3xl font-bold
+                        <option>USD</option>
+                        <option>EUR</option>
+                    </select>
+                </form>
+            </div>
+            <img src="Assets/images/laptop.png" alt="" class="w-8/12">
+        </div>
+    </div>
+    <!-- =========================== coin calculator section/end ===============-->
+    <!-- =========================== News section ==============================-->
+    <div class="bg-slate-50 py-20">
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">News</h1>
-                                <div class="w-[85px] mx-auto flex
+        <div class="w-[85px] mx-auto flex
                                     justify-between mt-3 mb-5">
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-2"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-4"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-5"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-8"></div>
-                                </div>
-                                <p class="text-center text-md mt-3 mb-10
+        </div>
+        <p class="text-center text-md mt-3 mb-10
                                     text-slate-600">It’s an ever-changing
-                                    business. To stay on top of the
-                                    game, don’t forget to keep yourself in the
-                                    know.</p>
-                                <div class="grid grid-cols-3 gap-11 mx-6">
-                                    <div class="card bg-transparent rounded-none
+            business. To stay on top of the
+            game, don’t forget to keep yourself in the
+            know.</p>
+        <div class="grid grid-cols-3 gap-11 mx-6">
+            <div class="card bg-transparent rounded-none
                                         border">
-                                        <figure><img class="max-h-60 w-full"
-                                                src="Assets//images/bitcoin-dollar.jpg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0 pb-2">
-                                            <h1 class="card-title leading-none
+                <figure><img class="max-h-60 w-full" src="Assets//images/bitcoin-dollar.jpg" alt="Shoes" /></figure>
+                <div class="card-body px-0 pb-2">
+                    <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">Bitcoin
-                                                Looks for Price Support After
-                                                Failed $10K
-                                                Crossover</h1>
-                                            <p class="mt-1 pb-2 text-gray-600
+                        Looks for Price Support After
+                        Failed $10K
+                        Crossover</h1>
+                    <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                                                quia volup tas sit aspernatur
-                                                aut
-                                                odit
-                                                aut fu sed quia conse quun tur
-                                                magni dolor quia. </p>
-                                            <div class="card-actions border-t
+                        quia volup tas sit aspernatur
+                        aut
+                        odit
+                        aut fu sed quia conse quun tur
+                        magni dolor quia. </p>
+                    <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                                                <div><span>Post by </span><span
-                                                        class="font-bold">Robert
-                                                        Downey</span></div>
-                                                <span>0 Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-transparent rounded-none
+                        <div><span>Post by </span><span class="font-bold">Robert
+                                Downey</span></div>
+                        <span>0 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-transparent rounded-none
                                         border">
-                                        <figure><img class="max-h-60 w-full"
-                                                src="Assets//images/btc-2.jpeg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0 pb-2">
-                                            <h1 class="card-title leading-none
+                <figure><img class="max-h-60 w-full" src="Assets//images/btc-2.jpeg" alt="Shoes" /></figure>
+                <div class="card-body px-0 pb-2">
+                    <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">This
-                                                Platform Aims to Disrupt the
-                                                Esport
-                                                Gambling Industry</h1>
-                                            <p class="mt-1 pb-2 text-gray-600
+                        Platform Aims to Disrupt the
+                        Esport
+                        Gambling Industry</h1>
+                    <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                                                quia volup tas sit aspernatur
-                                                aut
-                                                odit aut fu sed quia conse quun
-                                                tur magni dolor quia.</p>
-                                            <div class="card-actions border-t
+                        quia volup tas sit aspernatur
+                        aut
+                        odit aut fu sed quia conse quun
+                        tur magni dolor quia.</p>
+                    <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                                                <div><span>Post by </span><span
-                                                        class="font-bold">Robert
-                                                        Downey</span></div>
-                                                <span>0 Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-transparent rounded-none
+                        <div><span>Post by </span><span class="font-bold">Robert
+                                Downey</span></div>
+                        <span>0 Comments</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-transparent rounded-none
                                         border">
-                                        <figure><img class="max-h-60 w-full"
-                                                src="Assets//images/btc-3.jpg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0 pb-2">
-                                            <h1 class="card-title leading-none
+                <figure><img class="max-h-60 w-full" src="Assets//images/btc-3.jpg" alt="Shoes" /></figure>
+                <div class="card-body px-0 pb-2">
+                    <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">Crypto
-                                                Fund Says Bitcoin Will Be the
-                                                Biggest Bubble Ever</h1>
-                                            <p class="mt-1 pb-2 text-gray-600
+                        Fund Says Bitcoin Will Be the
+                        Biggest Bubble Ever</h1>
+                    <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                                                quia volup tas sit aspernatur
-                                                aut
-                                                odit aut fu sed quia conse quun
-                                                tur magni dolor quia.</p>
-                                            <div class="card-actions border-t
+                        quia volup tas sit aspernatur
+                        aut
+                        odit aut fu sed quia conse quun
+                        tur magni dolor quia.</p>
+                    <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                                                <div><span>Post by </span><span
-                                                        class="font-bold">Robert
-                                                        Downey</span></div>
-                                                <span>0 Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- =========================== News section/end ==========================-->
-                            <!-- =========================== Search section ============================-->
-                            <div class="grid grid-cols-2 items-center p-28
+                        <div><span>Post by </span><span class="font-bold">Robert
+                                Downey</span></div>
+                        <span>0 Comments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================== News section/end ==========================-->
+    <!-- =========================== Search section ============================-->
+    <div class="grid grid-cols-2 items-center p-28
                                 bg-base-200 text-base-content bg-[#FDE200]">
-                                <div>
-                                    <h1 class="text-4xl font-bold">Know Your
-                                        Customer</h1>
-                                    <p>Sign up for our weekly industry updates,
-                                        insider
-                                        perspectives and
-                                        in-depth market analysis.</p>
-                                </div>
-                                <div>
-                                    <div class="form-control">
-                                        <div class="flex justify-between">
-                                            <input type="text"
-                                                placeholder="Insert your email"
-                                                class="input input-bordered
-                                                w-full p-30" />
-                                            <button class="btn btn-dark
+        <div>
+            <h1 class="text-4xl font-bold mb-6">Know Your
+                Customer</h1>
+            <p>Sign up for our weekly industry updates,
+                insider
+                perspectives and
+                in-depth market analysis.</p>
+        </div>
+        <div>
+            <div class="form-control">
+                <div class="flex gap-10">
+                    <input type="text" placeholder="Insert your email" class="input input-bordered
+                                                w-full p-30 rounded" />
+                    <button class="btn btn-dark
                                                 rounded-sm py-4 px-14">Submit</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- =========================== Search section-end ========================-->
-                            <!-- =========================== Cards of team ============================= -->
-                            <div class="bg-[url('Assets/images/map-bg.jpg')]
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================== Search section-end ========================-->
+    <!-- =========================== Cards of team ============================= -->
+    <div class="bg-[url('Assets/images/map-bg.jpg')]
                                 py-20">
-                                <h1 class="text-center text-3xl font-bold
+        <h1 class="text-center text-3xl font-bold
                                     uppercase">Our Team</h1>
-                                <div class="w-24 mx-auto flex justify-between
+        <div class="w-24 mx-auto flex justify-between
                                     mt-3 mb-5">
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-2"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-4"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-5"></div>
-                                    <div class="bg-slate-900 rounded-lg border
+            <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-8"></div>
-                                </div>
-                                <p class="text-center text-md mt-3 mb-8
+        </div>
+        <p class="text-center text-md mt-3 mb-8
                                     text-slate-600">Our youth is only an
-                                    indication of our drive. Here you
-                                    have a team of experts, ready to
-                                    offer consultancy
-                                    when <br> needed.</p>
-                                <div class="grid grid-cols-3 gap-11 mx-6">
-                                    <div class="card bg-transparent
+            indication of our drive. Here you
+            have a team of experts, ready to
+            offer consultancy
+            when <br> needed.</p>
+        <div class="grid grid-cols-3 gap-11 mx-6">
+            <div class="card bg-transparent
                                         rounded-none">
-                                        <figure><img class=""
-                                                src="Assets//images/model-1.jpg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0">
-                                            <h1 class="card-title leading-none
+                <figure><img class="" src="Assets//images/model-1.jpg" alt="Shoes" /></figure>
+                <div class="card-body px-0">
+                    <h1 class="card-title leading-none
                                                 text-2xl">Robert bruce</h1>
-                                            <h2 class="text-lg text-gray-600">Assistant
-                                                Manager</h2>
-                                            <p class="border-t border-black mt-2
+                    <h2 class="text-lg text-gray-600">Assistant
+                        Manager</h2>
+                    <p class="border-t border-black mt-2
                                                 pt-5 pb-2 text-gray-600">Lorem
-                                                ipsum dolor sit amet consectetur
-                                                adipisicing elit.consectetur
-                                                adipisicing elit. </p>
-                                            <div class="card-actions
+                        ipsum dolor sit amet consectetur
+                        adipisicing elit.consectetur
+                        adipisicing elit. </p>
+                    <div class="card-actions
                                                 justify-start ml-2">
-                                                <span
-                                                    class="border rounded-full
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:facebook-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:twitter-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:linkedin-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:vimeo-fill"></iconify-icon>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-transparent
+                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-transparent
                                         rounded-none">
-                                        <figure><img class=""
-                                                src="Assets//images/model-2.jpg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0">
-                                            <h1 class="card-title leading-none
+                <figure><img class="" src="Assets//images/model-2.jpg" alt="Shoes" /></figure>
+                <div class="card-body px-0">
+                    <h1 class="card-title leading-none
                                                 text-2xl">Robert bruce</h1>
-                                            <h2 class="text-lg text-gray-600">Assistant
-                                                Manager</h2>
-                                            <p class="border-t border-black mt-2
+                    <h2 class="text-lg text-gray-600">Assistant
+                        Manager</h2>
+                    <p class="border-t border-black mt-2
                                                 pt-5 pb-2 text-gray-600">Lorem
-                                                ipsum dolor sit amet consectetur
-                                                adipisicing elit.consectetur
-                                                adipisicing elit. </p>
-                                            <div class="card-actions
+                        ipsum dolor sit amet consectetur
+                        adipisicing elit.consectetur
+                        adipisicing elit. </p>
+                    <div class="card-actions
                                                 justify-start ml-2">
-                                                <span
-                                                    class="border rounded-full
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:facebook-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:twitter-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:linkedin-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:vimeo-fill"></iconify-icon>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card bg-transparent
+                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="card bg-transparent
                                         rounded-none">
-                                        <figure><img class=""
-                                                src="Assets//images/model-3.jpg"
-                                                alt="Shoes" /></figure>
-                                        <div class="card-body px-0">
-                                            <h1 class="card-title leading-none
+                <figure><img class="" src="Assets//images/model-3.jpg" alt="Shoes" /></figure>
+                <div class="card-body px-0">
+                    <h1 class="card-title leading-none
                                                 text-2xl">Robert bruce</h1>
-                                            <h2 class="text-lg text-gray-600">Assistant
-                                                Manager</h2>
-                                            <p class="border-t border-black mt-2
+                    <h2 class="text-lg text-gray-600">Assistant
+                        Manager</h2>
+                    <p class="border-t border-black mt-2
                                                 pt-5 pb-2 text-gray-600">Lorem
-                                                ipsum dolor sit amet consectetur
-                                                adipisicing elit.consectetur
-                                                adipisicing elit. </p>
-                                            <div class="card-actions
+                        ipsum dolor sit amet consectetur
+                        adipisicing elit.consectetur
+                        adipisicing elit. </p>
+                    <div class="card-actions
                                                 justify-start ml-2">
-                                                <span
-                                                    class="border rounded-full
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:facebook-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:twitter-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:linkedin-fill"></iconify-icon>
-                                                </span>
-                                                <span
-                                                    class="border rounded-full
+                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                        </span>
+                        <span class="border rounded-full
                                                     h-10 w-10 flex items-center
                                                     justify-center
                                                     hover:bg-yellow-400 ease-in
                                                     duration-200
                                                     hover:cursor-pointer">
-                                                    <iconify-icon
-                                                        icon="akar-icons:vimeo-fill"></iconify-icon>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- =========================== Cards of team-============================= -->
-                            <!--============================ Footer ===================================-->
-                            <footer class="footer p-10 bg-neutral
+                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =========================== Cards of team-============================= -->
+    <!--============================ Footer ===================================-->
+    <footer class="footer p-10 bg-neutral
                                 text-neutral-content
                                 bg-[url('Assets/images/footer.jpg')] bg-cover
                                 py-32">
-                                <div>
-                                    <span class="footer-title text-white
+        <div>
+            <span class="footer-title text-white
                                         opacity-100 text-3xl">Resources</span>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
-                                    </a>
-                                </div>
-                                <div>
-                                    <span class="footer-title text-white
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
+            </a>
+        </div>
+        <div>
+            <span class="footer-title text-white
                                         opacity-100 text-3xl">Network</span>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
-                                    </a>
-                                </div>
-                                <div>
-                                    <span class="footer-title text-white
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
+            </a>
+        </div>
+        <div>
+            <span class="footer-title text-white
                                         opacity-100 text-3xl">Support</span>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>About
-                                        us
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Contact
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Jobs
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Press
-                                        kit
-                                    </a>
-                                </div>
-                                <div>
-                                    <span class="footer-title text-white
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>About
+                us
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Contact
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Jobs
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Press
+                kit
+            </a>
+        </div>
+        <div>
+            <span class="footer-title text-white
                                         opacity-100 text-3xl">About us</span>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Terms
-                                        of use
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Privacy
-                                        policy
-                                    </a>
-                                    <a class="link link-hover">
-                                        <iconify-icon icon="ep:arrow-right"></iconify-icon>Cookie
-                                        policy
-                                    </a>
-                                </div>
-                            </footer>
-                            <!--============================ Footer end ===============================-->
-                            <script>
-var clock;
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Terms
+                of use
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Privacy
+                policy
+            </a>
+            <a class="link link-hover">
+                <iconify-icon icon="ep:arrow-right"></iconify-icon>Cookie
+                policy
+            </a>
+        </div>
+    </footer>
+    <!--============================ Footer end ===============================-->
+    <script>
+        var clock;
 
-$(document).ready(function() {
+        $(document).ready(function () {
 
-    // Grab the current date
-    var currentDate = new Date();
+            // Grab the current date
+            var currentDate = new Date();
 
-    // Set some date in the future. In this case, it's always Jan 1
-    var futureDate  = new Date(currentDate.getFullYear() + 2, 1, 2); /* yyyy,mm,dd formate*/
-    console.log(futureDate);
+            // Set some date in the future. In this case, it's always Jan 1
+            var futureDate = new Date(currentDate.getFullYear() + 2, 1, 2); /* yyyy,mm,dd formate*/
+            console.log(futureDate);
 
-    // Calculate the difference in seconds between the future and current date
-    var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+            // Calculate the difference in seconds between the future and current date
+            var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
-    // Instantiate a coutdown FlipClock
-    clock = $('.clock').FlipClock(diff, {
-        clockFace: 'DailyCounter',
-        countdown: true
-    });
-});
-                            </script>
-                        </body>
+            // Instantiate a coutdown FlipClock
+            clock = $('.clock').FlipClock(diff, {
+                clockFace: 'DailyCounter',
+                countdown: true
+            });
+        });
+    </script>
+</body>
 
-                    </html>
+</html>
