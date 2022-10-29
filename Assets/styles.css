@@ -8,9 +8,14 @@
 div.gridview > div:first-child{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0px;
-    padding: 0px;
+    justify-items: center;
     /* gap: 20px; */
+}
+.cryptoboxes{
+    width: 100% !important;
+}
+.cryptoboxes a{
+    margin: 0px !important;
 }
 div.gridview > a:last-child{
     display: none;
@@ -18,4 +23,16 @@ div.gridview > a:last-child{
 div.gridview > div:first-child > a:nth-child(2){
     background-color: #FDE200;
     color:black;
+}
+.title-bar{
+    display: none;
+}
+.mcw-table .dataTables-footer{
+    display: none !important;
+}
+.cryptohopper_logo_ticker_1 {
+display: none;
+}
+.cryptohopper_logo_ticker_1{
+    border-radius: 0% !important;
 }
