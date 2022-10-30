@@ -19,7 +19,7 @@
     <title>Cryptic-Cryptocurrency website</title>
 </head>
 
-<body>
+<body class="max-w-screen-2xl mx-auto">
     <!--============================ Navbar ===================================-->
     <div class="h-auto bg-[#252525] text-white px-8 md:py-6 lg:gap-20 lg:flex lg:justify-between lg:items-center">
         <div class="">
@@ -134,7 +134,7 @@
                                     text-white xl:w-auto w-full px-5 py-8">
             <p class="my-5">Distribution Ends In:</p>
             <div class="clock"></div>
-            <div class="flex w-full text-sm opacity-80">
+            <div class="flex flex-col md:flex-row w-full text-sm opacity-80">
                 <span class="block ml-20 mr-16">Days</span>
                 <span class="block ml-12 mr-20">Hours</span>
                 <span class="block mr-20">Minutes</span>
@@ -460,8 +460,109 @@
                     15th, 2022</span>
             </div>
         </div>
-
+        <!-- For mobile view -->
+        <div class="md:hidden flex gap-3">
+            <div class="flex flex-col items-center
+                                            relative gap-56 h-full">
+                <div class="h-full w-1 bg-[#FFD600]
+                                                absolute z-0"></div>
+                <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+            </div>
+            <div class="flex flex-col gap-5">
+                <div class="bg-slate-300 w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    <p class="mt-4 text-2xl opacity-50">Apr
+                        15th, 2022</p>
+                </div>
+                <div class="bg-slate-300 w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    <p class="mt-4 text-2xl opacity-50">Apr
+                        15th, 2022</p>
+                </div>
+                <div class="bg-slate-300 w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    <p class="mt-4 text-2xl opacity-50">Apr
+                        15th, 2022</p>
+                </div>
+                <div class="bg-slate-300 w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    <p class="mt-4 text-2xl opacity-50">Apr
+                        15th, 2022</p>
+                </div>
+                <div class="bg-slate-300 w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                    <h1 class="text-3xl font-bold">Cryptic
+                        ICO</h1>
+                    <p class="my-4">With a userbase of
+                        200 members, we were only just
+                        setting up camp.</p>
+                    <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    <p class="mt-4 text-2xl opacity-50">Apr
+                        15th, 2022</p>
+                </div>
+            </div>
+        </div>
+        <!-- For mobile view  end-->
     </div>
+
     <!-- =========================== Steps section/end =========================-->
     <!-- =========================== coin calculator section ===================-->
     <div class="bg-gradient-to-r from-[#FFD600]
@@ -629,12 +730,12 @@
                 in-depth market analysis.</p>
         </div>
         <div>
-            <div class="form-control">
-                <div class="flex gap-10">
+            <div class="form-control mt-10 lg:mt-0">
+                <div class="flex lg:gap-10">
                     <input type="text" placeholder="Insert your email" class="input input-bordered
                                                 w-full p-30 rounded" />
                     <button class="btn btn-dark
-                                                rounded-sm py-4 px-14">Submit</button>
+                                                rounded-sm lg:py-4 lg:px-14">Submit</button>
                 </div>
             </div>
         </div>
@@ -817,7 +918,7 @@
     </div>
     <!-- =========================== Cards of team-============================= -->
     <!--============================ Footer ===================================-->
-    <footer class="footer p-10 bg-neutral
+    <footer class="footer md:grid-cols-2 lg:grid-cols-4 md:grid-flow-row lg:grid-flow-col p-10 bg-neutral
                                 text-neutral-content
                                 bg-[url('Assets/images/footer.jpg')] bg-cover
                                 py-32">

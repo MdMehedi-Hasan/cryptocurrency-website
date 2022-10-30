@@ -1,6 +1,11 @@
 .d-grid{
-    display: grid;
-    grid-template-columns: 5fr 1fr 5fr;
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .d-grid{
+        display: grid;
+        grid-template-columns: 5fr 1fr 5fr;
+    }
 }
 .icon-shadow{
     box-shadow: 0px 0px 0 5px white;
