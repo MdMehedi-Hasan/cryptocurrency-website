@@ -22,8 +22,16 @@ div.gridview > a:last-child{
 }
 div.gridview > div:first-child > a:nth-child(2){
     background-color: #FDE200;
+}
+div.gridview > div:first-child > a:nth-child(2) p{
     color:black;
 }
+/* .mcw-pricelabel{
+    color: black;
+}
+.mcw-price{
+    color:black;
+} */
 .title-bar{
     display: none;
 }
