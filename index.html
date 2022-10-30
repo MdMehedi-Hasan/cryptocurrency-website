@@ -21,12 +21,12 @@
 
 <body>
     <!--============================ Navbar ===================================-->
-    <div class="h-auto bg-[#252525] text-white px-8 md:py-6 gap-28 md:flex md:items-center">
+    <div class="h-auto bg-[#252525] text-white px-8 md:py-6 lg:gap-20 lg:flex lg:justify-between lg:items-center">
         <div class="">
-            <a class=""><img src="Assets/images/logo.png" alt="" class="w-32 mx-auto md:mx-0"></a>
+            <a class=""><img src="Assets/images/logo.png" alt="" class="w-32 mx-auto lg:mx-0"></a>
         </div>
         <div>
-            <ul class="menu menu-horizontal w-full justify-center mt-5 md:mt-0 p-0 font-bold">
+            <ul class="menu menu-horizontal w-full justify-center mt-5 lg:mt-0 p-0 font-bold">
                 <li tabindex="0">
                     <a class="p-0 px-2">
                         Home
@@ -99,14 +99,14 @@
                 </li>
             </ul>
         </div>
-        <div class="flex justify-between mt-10 pb-5 md:pb-0 md:justify-start md:mt-0 md:gap-11">
-            <div class="md:border-l-2 opacity-50">
+        <div class="flex justify-between items-center mt-10 pb-5 lg:pb-0 lg:justify-start lg:mt-0 lg:gap-11">
+            <div class="lg:border-l-2 opacity-50 lg:flex">
                 <iconify-icon class="text-2xl mx-1 ml-5" icon="akar-icons:discord-fill"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="akar-icons:telegram-fill"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="akar-icons:facebook-fill"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="akar-icons:twitter-fill"></iconify-icon>
             </div>
-            <div class="opacity-100">
+            <div class="opacity-100 lg:flex">
                 <iconify-icon class="text-2xl mx-1" icon="fa:search"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="ion:person-add-sharp" flip="horizontal"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" class="text-2xl" icon="charm:menu-hamburger"></iconify-icon>
@@ -181,9 +181,11 @@
             <br>
             on every token purchase
         </p>
-        <div class="cryptohopper-web-widget gridview mx-14 bg-transparent" data-id="3" data-coins="bitcoin,ethereum,xrp" data-theme="dark" data-realtime="on"></div>
+        <div class="cryptohopper-web-widget gridview mx-14 bg-transparent" data-id="3" data-coins="bitcoin,ethereum,xrp"
+            data-theme="dark" data-realtime="on"></div>
         <div class=" mx-14 mt-10">
-            <div class="cryptohopper-web-widget" data-id="1" data-chart_color="#060606" data-numcoins="10" data-realtime="on" data-table_length="10"></div>
+            <div class="cryptohopper-web-widget" data-id="1" data-chart_color="#060606" data-numcoins="10"
+                data-realtime="on" data-table_length="10"></div>
         </div>
     </div>
     <!-- =========================== Live chart section/end ====================-->
@@ -496,7 +498,7 @@
                     select your weapons and we’ll
                     explain the
                     technicalities.</p>
-                <form class="flex items-center gap-6
+                <form class="flex flex-col md:flex-row items-center gap-6
                                             mt-10">
                     <input type="text" class="input
                                                 input-bordered text-center
@@ -504,16 +506,18 @@
                                                 rounded" value="1" />
                     <label for="" class="font-bold">BTC
                         =</label>
-                    <input type="text" class="input
+                    <div class="flex items-center gap-5 md:gap-0">
+                        <input type="text" class="input
                                                 input-bordered text-center
                                                 text-white bg-black w-36
                                                 rounded" value="20,000" />
-                    <select class="select w-24 max-w-xs
+                        <select class="select w-24 max-w-xs
                                                 text-white bg-black border-0
                                                 rounded">
-                        <option>USD</option>
-                        <option>EUR</option>
-                    </select>
+                            <option>USD</option>
+                            <option>EUR</option>
+                        </select>
+                    </div>
                 </form>
             </div>
             <img src="Assets/images/laptop.png" alt="" class="w-8/12">
@@ -614,7 +618,7 @@
     </div>
     <!-- =========================== News section/end ==========================-->
     <!-- =========================== Search section ============================-->
-    <div class="grid grid-cols-2 items-center p-28
+    <div class="grid grid-cols-1 md:grid-cols-2 items-center p-28
                                 bg-base-200 text-base-content bg-[#FDE200]">
         <div>
             <h1 class="text-4xl font-bold mb-6">Know Your
@@ -895,7 +899,7 @@
             var currentDate = new Date();
 
             // Set some date in the future. In this case, it's always Jan 1
-            var futureDate = new Date(currentDate.getFullYear() +  1,0); /* yyyy,mm,dd formate*/
+            var futureDate = new Date(currentDate.getFullYear() + 1, 0); /* yyyy,mm,dd formate*/
 
             // Calculate the difference in seconds between the future and current date
             var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;

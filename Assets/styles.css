@@ -14,8 +14,8 @@
 div.gridview > div:first-child{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    /* gap: 20px; */
+    justify-items: space-between;
+    gap: 20px;
 }
 @media screen and (max-width:767px) {
     div.gridview > div:first-child{
@@ -55,4 +55,8 @@ div.gridview > div:first-child > a:nth-child(2) p{
 .cryptohopper_logo_ticker_1 {
     display: none;
     border-radius: 0% !important;
+}
+.cryptoboxes a{
+    min-width: 0px !important;
+    max-width: 100% !important;
 }
