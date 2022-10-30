@@ -20,14 +20,13 @@
 </head>
 
 <body>
-    <!-- <marquee behavior="" direction="left" class="fixed bottom-0 bg-[#FDE200]">hello I am Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur iusto ipsam explicabo magni aliquid animi expedita rem maxime maiores quos architecto hic, soluta eos esse blanditiis accusamus praesentium provident fugit?</marquee> -->
     <!--============================ Navbar ===================================-->
-    <div class="navbar h-28 bg-[#252525] text-white px-8 gap-28">
-        <div class="flex-1">
-            <a class=""><img src="Assets/images/logo.png" alt="" class="w-32"></a>
+    <div class="h-auto bg-[#252525] text-white px-8 md:py-6 gap-28 md:flex md:items-center">
+        <div class="">
+            <a class=""><img src="Assets/images/logo.png" alt="" class="w-32 mx-auto md:mx-0"></a>
         </div>
         <div>
-            <ul class="menu menu-horizontal p-0 font-bold">
+            <ul class="menu menu-horizontal w-full justify-center mt-5 md:mt-0 p-0 font-bold">
                 <li tabindex="0">
                     <a class="p-0 px-2">
                         Home
@@ -100,8 +99,8 @@
                 </li>
             </ul>
         </div>
-        <div class="flex-none gap-11">
-            <div class="border-l-2 opacity-50">
+        <div class="flex justify-between mt-10 pb-5 md:pb-0 md:justify-start md:mt-0 md:gap-11">
+            <div class="md:border-l-2 opacity-50">
                 <iconify-icon class="text-2xl mx-1 ml-5" icon="akar-icons:discord-fill"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="akar-icons:telegram-fill"></iconify-icon>
                 <iconify-icon class="text-2xl mx-1" icon="akar-icons:facebook-fill"></iconify-icon>
@@ -134,7 +133,6 @@
         <div class="flex flex-col items-center bg-black
                                     text-white xl:w-auto w-full px-5 py-8">
             <p class="my-5">Distribution Ends In:</p>
-            <!-- <div><p id="demo"></p></div> -->
             <div class="clock"></div>
             <div class="flex w-full text-sm opacity-80">
                 <span class="block ml-20 mr-16">Days</span>
@@ -270,7 +268,7 @@
             <br>
             on every token purchase
         </p>
-        <div class="flex py-10">
+        <div class="flex flex-col md:flex-row py-10">
             <img src="Assets/images/currrency-choose-wallet.png" alt="">
             <div class="ml-8">
                 <h1 class="text-2xl font-bold mb-6">Choose
@@ -281,7 +279,7 @@
                     cryptocurrency for your pocket.</p>
             </div>
         </div>
-        <div class="flex py-10 justify-end">
+        <div class="flex flex-col md:flex-row py-10 justify-end">
             <img src="Assets/images/wallet-2.png" alt="">
             <div class="ml-8">
                 <h1 class="text-2xl font-bold mb-6">Get
@@ -291,7 +289,7 @@
                     cryptomoney in seconds.</p>
             </div>
         </div>
-        <div class="flex py-10">
+        <div class="flex flex-col md:flex-row py-10">
             <img src="Assets/images/wallet-3.png" alt="">
             <div class="ml-8">
                 <h1 class="text-2xl font-bold mb-6">Send/Receive
@@ -483,7 +481,7 @@
             purchase is 50 Coins tokens. Get a bonus
             from 5% to 25% <br>
             on every token purchase</p>
-        <div class="flex my-8 items-center">
+        <div class="flex flex-col flex-col-reverse md:flex-row  my-8 items-center">
             <div>
                 <p class="mb-7 text-zinc-600">No more
                     hassle. <br>
@@ -542,7 +540,7 @@
             business. To stay on top of the
             game, don’t forget to keep yourself in the
             know.</p>
-        <div class="grid grid-cols-3 gap-11 mx-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-11 mx-6">
             <div class="card bg-transparent rounded-none
                                         border">
                 <figure><img class="max-h-60 w-full" src="Assets//images/bitcoin-dollar.jpg" alt="Shoes" /></figure>
@@ -660,7 +658,7 @@
             have a team of experts, ready to
             offer consultancy
             when <br> needed.</p>
-        <div class="grid grid-cols-3 gap-11 mx-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-11 mx-6">
             <div class="card bg-transparent
                                         rounded-none">
                 <figure><img class="" src="Assets//images/model-1.jpg" alt="Shoes" /></figure>
@@ -886,7 +884,7 @@
             </a>
         </div>
     </footer>
-    <div class="cryptohopper-web-widget" data-id="2" data-chart_color="#ffd600" data-background_color="#ffd600" data-theme="custom" data-realtime="on" data-ticker_position="footer"></div>
+    <!-- <div class="cryptohopper-web-widget" data-id="2" data-chart_color="#ffd600" data-background_color="#ffd600" data-theme="custom" data-realtime="on" data-ticker_position="footer"></div> -->
     <!--============================ Footer end ===============================-->
     <script>
         var clock;
@@ -898,7 +896,6 @@
 
             // Set some date in the future. In this case, it's always Jan 1
             var futureDate = new Date(currentDate.getFullYear() +  1,0); /* yyyy,mm,dd formate*/
-            console.log(futureDate);
 
             // Calculate the difference in seconds between the future and current date
             var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
