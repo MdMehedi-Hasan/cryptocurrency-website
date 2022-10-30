@@ -64,4 +64,5 @@ div.gridview > div:first-child > a:nth-child(2) p{
 .cryptoboxes a{
     min-width: 0px !important;
     max-width: 100% !important;
+    width: 100%;
 }
