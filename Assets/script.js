@@ -1,10 +1,10 @@
 // ========================= Api calling for calculating price of bitcoin ======================
-var apikey = {
+/* var apikey = {
     key:'1000b77a-d7fb-42c3-a6ff-83e3627886cf',
 };
 fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_PRO_API_KEY=' + apikey.key)
 .then((response) => response.json())
-.then((data) => console.log(data));
+.then((data) => console.log(data)); */
 // ========================= Api calling end ======================
 
 
