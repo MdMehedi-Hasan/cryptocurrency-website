@@ -10,7 +10,7 @@ fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?CMC_P
 
 // ================= Box countdown ==========================
 // Set the date we're counting down to
-let countDownDate = new Date("Jan 5, 2023 15:37:25").getTime();
+let countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
 
 // Update the count down every 1 second
 const x = setInterval(function() {
