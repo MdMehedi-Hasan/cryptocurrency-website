@@ -129,7 +129,8 @@
 
     <!-- ===========================⬇️⬇️⬇️ Header section ⬇️⬇️⬇️============================-->
     <div class="bg-[url(Assets/images/yellowbackground.jpg)] bg-no-repeat bg-cover bg-center">
-        <div class="container flex lg:flex-row lg:gap-5 xl:flex-row flex-col justify-between items-center py-24 mx-auto">
+        <div
+            class="container flex lg:flex-row lg:gap-5 xl:flex-row flex-col justify-between items-center py-24 mx-auto">
             <div class="xl:w-5/12 w-full pl-10 xl:pl-0 mb-5 xl:mb-0">
                 <h1 class="text-5xl leading-snug"><span class="font-bold">Cryptic</span> The
                     <span class="font-bold">Revolution</span>
@@ -173,248 +174,314 @@
         </div>
     </div>
     <!-- =========================== Header section/end ========================-->
-    <!-- =========================== Live chart section ========================-->
+    <!-- ===========================⬇️⬇️⬇️ Live chart section ⬇️⬇️⬇️========================-->
     <div class="bg-[url(Assets/images/network.jpg)]
-                                bg-cover bg-center bg-no-repeat py-28">
-        <h1 class="text-center text-3xl font-bold
+    bg-cover bg-center bg-no-repeat">
+        <div class="container mx-auto py-28">
+            <h1 class="text-center text-3xl font-bold
                                     uppercase">CRYPTOCURRENCY LIVE PRICE TABLES</h1>
-        <div class="w-28 mx-auto flex justify-between
+            <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-2"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-4"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-5"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-12"></div>
-        </div>
-        <p class="text-center text-slate-500 mt-7 mb-8">Minimum
-            purchase is 50 Coins tokens. Get a bonus
-            from 5% to 25%
-            <br>
-            on every token purchase
-        </p>
-        <div class="cryptohopper-web-widget gridview mx-14 bg-transparent" data-id="3" data-coins="bitcoin,ethereum,xrp"
-            data-theme="dark" data-realtime="on"></div>
-        <div class=" mx-14 mt-10">
-            <div class="cryptohopper-web-widget" data-id="1" data-chart_color="#060606" data-numcoins="10"
-                data-realtime="on" data-table_length="10"
-                data-table_columns="rank,name,price_usd,volume_usd_24h,available_supply,percent_change_24h"></div>
+            </div>
+            <p class="text-center text-slate-500 mt-7 mb-8">Minimum
+                purchase is 50 Coins tokens. Get a bonus
+                from 5% to 25%
+                <br>
+                on every token purchase
+            </p>
+            <div class="cryptohopper-web-widget gridview bg-transparent" data-id="3" data-coins="bitcoin,ethereum,xrp"
+                data-theme="dark" data-realtime="on"></div>
+            <div class="mt-10">
+                <div class="cryptohopper-web-widget" data-id="1" data-chart_color="#060606" data-numcoins="10"
+                    data-realtime="on" data-table_length="10"
+                    data-table_columns="rank,name,price_usd,volume_usd_24h,available_supply,percent_change_24h"></div>
+            </div>
         </div>
     </div>
     <!-- =========================== Live chart section/end ====================-->
     <!-- =========================== ICO section ===============================-->
-    <div class="bg-[url(Assets/images/currency-2.jpg)]
-                                text-white opacity-100 bg-cover bg-no-repeat
-                                bg-center py-24">
-        <h1 class="text-center text-3xl font-bold
-                                    uppercase">Time until ico close</h1>
-        <div class="w-28 mx-auto flex justify-between
-                                    mt-3 mb-5">
-            <div class="bg-white rounded-lg border
-                                        border-black h-1 w-2"></div>
-            <div class="bg-white rounded-lg border
-                                        border-black h-1 w-4"></div>
-            <div class="bg-white rounded-lg border
-                                        border-black h-1 w-5"></div>
-            <div class="bg-white rounded-lg border
-                                        border-black h-1 w-12"></div>
-        </div>
-        <p class="text-center text-slate-500 mb-12">Minimum
-            purchase is 50 Coins tokens. Get a bonus
-            from 5% to 25%
-            <br>on every token purchase
-        </p>
-        <!-- Countdown -->
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 text-center gap-10
-                                    mx-28">
-            <div class="border border-3 border-white
-                                        px-5 py-10 bg-transparent">
-                <h1 id="days" class="text-6xl font-bold">110</h1>
-                <p>Days</p>
+    <div class="bg-[url(Assets/images/currency-2.jpg)] bg-cover bg-no-repeat bg-center">
+        <div class="container mx-auto text-white opacity-100 py-24">
+            <h1 class="text-center text-3xl font-bold
+        uppercase">Time until ico close</h1>
+            <div class="w-28 mx-auto flex justify-between
+        mt-3 mb-5">
+                <div class="bg-white rounded-lg border
+            border-black h-1 w-2"></div>
+                <div class="bg-white rounded-lg border
+            border-black h-1 w-4"></div>
+                <div class="bg-white rounded-lg border
+            border-black h-1 w-5"></div>
+                <div class="bg-white rounded-lg border
+            border-black h-1 w-12"></div>
             </div>
-            <div class="border border-3 border-white
-                                        px-5 py-10 bg-transparent">
-                <h1 class="text-6xl font-bold" id="hours">09</h1>
-                <p>Hours</p>
+            <p class="text-center text-slate-500 mb-12">Minimum
+                purchase is 50 Coins tokens. Get a bonus
+                from 5% to 25%
+                <br>on every token purchase
+            </p>
+            <!-- Countdown -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 text-center gap-10
+        mx-28">
+                <div class="border border-3 border-white
+            px-5 py-10 bg-transparent">
+                    <h1 id="days" class="text-6xl font-bold">110</h1>
+                    <p>Days</p>
+                </div>
+                <div class="border border-3 border-white
+            px-5 py-10 bg-transparent">
+                    <h1 class="text-6xl font-bold" id="hours">09</h1>
+                    <p>Hours</p>
+                </div>
+                <div class="border border-3 border-white
+            px-5 py-10 bg-transparent">
+                    <h1 class="text-6xl font-bold" id="minutes">51</h1>
+                    <p>Minutes</p>
+                </div>
+                <div class="border border-3 border-white
+            px-5 py-10 bg-transparent">
+                    <h1 class="text-6xl font-bold" id="seconds">27</h1>
+                    <p>Seconds</p>
+                </div>
             </div>
-            <div class="border border-3 border-white
-                                        px-5 py-10 bg-transparent">
-                <h1 class="text-6xl font-bold" id="minutes">51</h1>
-                <p>Minutes</p>
+            <!-- countdown end -->
+            <div class="flex items-center flex-col">
+                <p class="mt-14 uppercase font-bold mb-3">TOTAL
+                    TOKENS BOUGHT</p>
+                <h1 class="text-6xl font-bold">91, 258, 141</h1>
+                <p class="mt-3 mb-6 uppercase font-bold">1
+                    COIN = 0,3 USD</p>
+                <button class="btn bg-stone-900 border-0 uppercase px-10 py-2
+            h-auto">Buy coin</button>
             </div>
-            <div class="border border-3 border-white
-                                        px-5 py-10 bg-transparent">
-                <h1 class="text-6xl font-bold" id="seconds">27</h1>
-                <p>Seconds</p>
-            </div>
-        </div>
-        <!-- countdown end -->
-        <div class="flex items-center flex-col">
-            <p class="mt-14 uppercase font-bold mb-3">TOTAL
-                TOKENS BOUGHT</p>
-            <h1 class="text-6xl font-bold">91, 258, 141</h1>
-            <p class="mt-3 mb-6 uppercase font-bold">1
-                COIN = 0,3 USD</p>
-            <button class="btn bg-stone-900 border-0 uppercase px-10 py-2
-                                        h-auto">Buy coin</button>
         </div>
     </div>
     <!-- =========================== ICO section/end ===========================-->
     <!-- =========================== ICO close section =========================-->
-    <div class="py-24
-                                bg-[url(Assets/images/network.jpg)] bg-cover
-                                bg-left px-10">
-        <h1 class="text-center text-3xl font-bold
-                                    uppercase">TIME UNTIL ICO CLOSE</h1>
-        <div class="w-28 mx-auto flex justify-between
-                                    mt-3 mb-5">
-            <div class="bg-black rounded-lg border
-                                        border-black h-1 w-2"></div>
-            <div class="bg-black rounded-lg border
-                                        border-black h-1 w-4"></div>
-            <div class="bg-black rounded-lg border
-                                        border-black h-1 w-5"></div>
-            <div class="bg-black rounded-lg border
-                                        border-black h-1 w-8"></div>
-        </div>
-        <p class="text-center text-slate-500 mt-7 mb-8">Minimum
-            purchase is 50 Coins tokens. Get a bonus
-            from 5% to 25%
-            <br>
-            on every token purchase
-        </p>
-        <div class="flex flex-col md:flex-row py-10">
-            <img src="Assets/images/currrency-choose-wallet.png" alt="">
-            <div class="ml-8">
-                <h1 class="text-2xl font-bold mb-6">Choose
-                    what goes into your wallet</h1>
-                <p>There is a myriad of coins worth the
-                    investment. Do your market research
-                    and find the best
-                    cryptocurrency for your pocket.</p>
+    <div class="bg-[url(Assets/images/network.jpg)] bg-cover
+    bg-center bg-no-repeat">
+        <div class="container mx-auto">
+            <div class="py-24 px-10">
+                <h1 class="text-center text-3xl font-bold
+        uppercase">TIME UNTIL ICO CLOSE</h1>
+                <div class="w-28 mx-auto flex justify-between
+        mt-3 mb-5">
+                    <div class="bg-black rounded-lg border
+            border-black h-1 w-2"></div>
+                    <div class="bg-black rounded-lg border
+            border-black h-1 w-4"></div>
+                    <div class="bg-black rounded-lg border
+            border-black h-1 w-5"></div>
+                    <div class="bg-black rounded-lg border
+            border-black h-1 w-8"></div>
+                </div>
+                <p class="text-center text-slate-500 mt-7 mb-8">Minimum
+                    purchase is 50 Coins tokens. Get a bonus
+                    from 5% to 25%
+                    <br>
+                    on every token purchase
+                </p>
+                <div class="flex flex-col md:flex-row py-10">
+                    <img src="Assets/images/currrency-choose-wallet.png" alt="">
+                    <div class="ml-8">
+                        <h1 class="text-2xl font-bold mb-6">Choose
+                            what goes into your wallet</h1>
+                        <p>There is a myriad of coins worth the
+                            investment. Do your market research
+                            and find the best
+                            cryptocurrency for your pocket.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row py-10 justify-end">
+                    <img src="Assets/images/wallet-2.png" alt="">
+                    <div class="ml-8">
+                        <h1 class="text-2xl font-bold mb-6">Get
+                            Coin to a Wallet</h1>
+                        <p>The steps are as clear-cut as
+                            anything. Turn your fiat money into
+                            cryptomoney in seconds.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row py-10">
+                    <img src="Assets/images/wallet-3.png" alt="">
+                    <div class="ml-8">
+                        <h1 class="text-2xl font-bold mb-6">Send/Receive
+                            with Wallet</h1>
+                        <p>Enjoy the perks of anonimity and
+                            cryptography and start using
+                            Blockchain technology to exchange
+                            money.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row py-10 justify-end">
-            <img src="Assets/images/wallet-2.png" alt="">
-            <div class="ml-8">
-                <h1 class="text-2xl font-bold mb-6">Get
-                    Coin to a Wallet</h1>
-                <p>The steps are as clear-cut as
-                    anything. Turn your fiat money into
-                    cryptomoney in seconds.</p>
+        <!-- =========================== ICO close section/end =====================-->
+        <!-- =========================== state section =============================-->
+        <div class="bg-[url(Assets/images/counter.jpeg)]">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center
+                                text-white py-32 font-bold">
+                <div>
+                    <h1 class="text-6xl">258</h1>
+                    <div class="w-12 bg-[#FFD600] rounded
+                                        mx-auto h-1 mt-2 mb-5"></div>
+                    <p>Transactions in last 24h</p>
+                </div>
+                <div>
+                    <h1 class="text-6xl">14</h1>
+                    <div class="w-12 bg-[#FFD600] rounded
+                                        mx-auto h-1 mt-2 mb-5"></div>
+                    <p>Transactions per hour</p>
+                </div>
+                <div>
+                    <h1 class="text-6xl">120</h1>
+                    <div class="w-12 bg-[#FFD600] rounded
+                                        mx-auto h-1 mt-2 mb-5"></div>
+                    <p>Largest Transactions</p>
+                </div>
+                <div>
+                    <h1 class="text-6xl">5</h1>
+                    <div class="w-12 bg-[#FFD600] rounded
+                                        mx-auto h-1 mt-2 mb-5"></div>
+                    <p>Years of Experience</p>
+                </div>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row py-10">
-            <img src="Assets/images/wallet-3.png" alt="">
-            <div class="ml-8">
-                <h1 class="text-2xl font-bold mb-6">Send/Receive
-                    with Wallet</h1>
-                <p>Enjoy the perks of anonimity and
-                    cryptography and start using
-                    Blockchain technology to exchange
-                    money.</p>
-            </div>
-        </div>
-    </div>
-    <!-- =========================== ICO close section/end =====================-->
-    <!-- =========================== ICO section/end ===========================-->
-    <!-- =========================== state section =============================-->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-center
-                                text-white bg-[url(Assets/images/counter.jpeg)]
-                                py-32 font-bold">
-        <div>
-            <h1 class="text-6xl">258</h1>
-            <div class="w-12 bg-[#FFD600] rounded
-                                        mx-auto h-1 mt-2 mb-5"></div>
-            <p>Transactions in last 24h</p>
-        </div>
-        <div>
-            <h1 class="text-6xl">14</h1>
-            <div class="w-12 bg-[#FFD600] rounded
-                                        mx-auto h-1 mt-2 mb-5"></div>
-            <p>Transactions per hour</p>
-        </div>
-        <div>
-            <h1 class="text-6xl">120</h1>
-            <div class="w-12 bg-[#FFD600] rounded
-                                        mx-auto h-1 mt-2 mb-5"></div>
-            <p>Largest Transactions</p>
-        </div>
-        <div>
-            <h1 class="text-6xl">5</h1>
-            <div class="w-12 bg-[#FFD600] rounded
-                                        mx-auto h-1 mt-2 mb-5"></div>
-            <p>Years of Experience</p>
-        </div>
-    </div>
-    <!-- =========================== state section/end =========================-->
-    <!-- =========================== Steps section =============================-->
-    <div class="bg-[url(Assets/images/map-bg-part.jpg)]
+        <!-- =========================== state section/end =========================-->
+        <!-- =========================== Steps section =============================-->
+        <div class="container mx-auto bg-[url(Assets/images/map-bg-part.jpg)]
                                 bg-cover bg-no-repeat pt-20">
-        <h1 class="text-center text-3xl font-bold
+            <h1 class="text-center text-3xl font-bold
                                     uppercase">Milestones</h1>
-        <div class="w-28 mx-auto flex justify-between
+            <div class="w-28 mx-auto flex justify-between
                                     mt-3 mb-5">
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-2"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-4"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-5"></div>
-            <div class="bg-black rounded-lg border
+                <div class="bg-black rounded-lg border
                                         border-black h-1 w-8"></div>
-        </div>
-        <p class="text-center text-slate-500">Minimum
-            purchase is 50 Coins tokens. Get a bonus
-            from 5% to 25% <br>
-            on every token purchase</p>
-        <!-- stepper container -->
-        <div class="d-grid justify-center py-24">
-            <div class="flex flex-col items-end">
-                <div class="bg-white text-right md:w-10/12 lg:w-8/12
+            </div>
+            <p class="text-center text-slate-500">Minimum
+                purchase is 50 Coins tokens. Get a bonus
+                from 5% to 25% <br>
+                on every token purchase</p>
+            <!-- stepper container -->
+            <div class="d-grid justify-center py-24">
+                <div class="flex flex-col items-end">
+                    <div class="bg-white text-right md:w-10/12 lg:w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md mt-2">
-                    <h1 class="text-3xl font-bold">Pre-ICO</h1>
-                    <p class="my-4">Every idea has to
-                        start somewhere. For us, this
-                        was inception.</p>
-                    <button class="btn bg-zinc-900
+                        <h1 class="text-3xl font-bold">Pre-ICO</h1>
+                        <p class="my-4">Every idea has to
+                            start somewhere. For us, this
+                            was inception.</p>
+                        <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                </div>
-                <span class="mt-20 text-2xl opacity-50">Feb
-                    15th, 2022</span>
-                <div class="bg-white text-right md:w-10/12 lg:w-8/12
+                    </div>
+                    <span class="mt-20 text-2xl opacity-50">Feb
+                        15th, 2022</span>
+                    <div class="bg-white text-right md:w-10/12 lg:w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                    <h1 class="text-3xl font-bold">CHP
-                        launch on Cryptic</h1>
-                    <p class="my-4">The release of our
-                        long-awaited token.</p>
-                    <button class="btn bg-zinc-900
+                        <h1 class="text-3xl font-bold">CHP
+                            launch on Cryptic</h1>
+                        <p class="my-4">The release of our
+                            long-awaited token.</p>
+                        <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                </div>
-                <span class="mt-24 text-2xl opacity-50">Mar
-                    4th, 2022</span>
-                <div class="bg-white text-right md:w-10/12 lg:w-8/12
+                    </div>
+                    <span class="mt-24 text-2xl opacity-50">Mar
+                        4th, 2022</span>
+                    <div class="bg-white text-right md:w-10/12 lg:w-8/12
                                             pl-16 pr-5 pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
                                             mt-64">
-                    <h1 class="text-3xl font-bold">Mobile
-                        Application</h1>
-                    <p class="my-4">You know the famed
-                        Steve Jobs saying ”There’s an
-                        app for that?”. Of course, there
-                        had to be an app for Cryptic as
-                        well.</p>
-                    <button class="btn bg-zinc-900
+                        <h1 class="text-3xl font-bold">Mobile
+                            Application</h1>
+                        <p class="my-4">You know the famed
+                            Steve Jobs saying ”There’s an
+                            app for that?”. Of course, there
+                            had to be an app for Cryptic as
+                            well.</p>
+                        <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
+                    </div>
+                </div>
+                <div>
+                    <!-- Milestone middle steps -->
+                    <div class="flex flex-col items-center
+                                            relative gap-56 h-full">
+                        <div class="h-full w-1 bg-[#FFD600]
+                                                absolute z-0"></div>
+                        <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                        <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                        <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                        <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                        <div class="icon-shadow bg-zinc-900
+                                                text-[#FFD600] rounded-full p-2
+                                                z-50 w-18 h-18 flex items-center
+                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
+                    </div>
+                    <!-- ======================= -->
+                </div>
+                <div class="flex flex-col">
+                    <span class="mt-5 text-2xl opacity-50">Jan
+                        15th, 2022</span>
+                    <div class="bg-white md:w-10/12 lg:w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            mt-64">
+                        <h1 class="text-3xl font-bold">Cryptic
+                            ICO</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    </div>
+                    <span class="mt-16 text-2xl opacity-50">Feb
+                        22nd, 2022</span>
+                    <div class="bg-white md:w-10/12 lg:w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            mt-64">
+                        <h1 class="text-3xl font-bold">Cryptic
+                            Listed in Exchanges</h1>
+                        <p class="my-4">A reason to say
+                            „Started from the bottom, now
+                            we’re here.”</p>
+                        <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                    </div>
+                    <span class="mt-10 text-2xl opacity-50">Apr
+                        15th, 2022</span>
                 </div>
             </div>
-            <div>
-                <!-- Milestone middle steps -->
+            <!-- For mobile view -->
+            <div class="md:hidden grid grid-cols-4 gap-3 pb-10">
                 <div class="flex flex-col items-center
                                             relative gap-56 h-full">
                     <div class="h-full w-1 bg-[#FFD600]
@@ -440,135 +507,74 @@
                                                 z-50 w-18 h-18 flex items-center
                                                 justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
                 </div>
-                <!-- ======================= -->
-            </div>
-            <div class="flex flex-col">
-                <span class="mt-5 text-2xl opacity-50">Jan
-                    15th, 2022</span>
-                <div class="bg-white md:w-10/12 lg:w-8/12 pl-5 pr-16
+                <div class="flex flex-col gap-5 col-span-3">
+                    <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
                                             pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
-                                            mt-64">
-                    <h1 class="text-3xl font-bold">Cryptic
-                        ICO</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
+                                            ">
+                        <h1 class="text-3xl font-bold">Pre
+                            ICO</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
-                </div>
-                <span class="mt-16 text-2xl opacity-50">Feb
-                    22nd, 2022</span>
-                <div class="bg-white md:w-10/12 lg:w-8/12 pl-5 pr-16
+                        <p class="mt-4 text-2xl opacity-50">Jan 15th, 2022</p>
+                    </div>
+                    <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
                                             pt-8 pb-5 border-b-4
                                             border-[#FFD600] rounded-b-md
-                                            mt-64">
-                    <h1 class="text-3xl font-bold">Cryptic
-                        Listed in Exchanges</h1>
-                    <p class="my-4">A reason to say
-                        „Started from the bottom, now
-                        we’re here.”</p>
-                    <button class="btn bg-zinc-900
+                                            ">
+                        <h1 class="text-3xl font-bold">Cryptic
+                            ICO</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
                                                 rounded">Read More</button>
+                        <p class="mt-4 text-2xl opacity-50">Feb 15th, 2022</p>
+                    </div>
+                    <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                        <h1 class="text-3xl font-bold">CHP launch on Cryptic</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                        <p class="mt-4 text-2xl opacity-50">Feb 22nd, 2022</p>
+                    </div>
+                    <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                        <h1 class="text-3xl font-bold">Cryptic Listed in Exchanges</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                        <p class="mt-4 text-2xl opacity-50">Mar 4th, 2022</p>
+                    </div>
+                    <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
+                                            pt-8 pb-5 border-b-4
+                                            border-[#FFD600] rounded-b-md
+                                            ">
+                        <h1 class="text-3xl font-bold">Mobile Application</h1>
+                        <p class="my-4">With a userbase of
+                            200 members, we were only just
+                            setting up camp.</p>
+                        <button class="btn bg-zinc-900
+                                                rounded">Read More</button>
+                        <p class="mt-4 text-2xl opacity-50">Apr
+                            15th, 2022</p>
+                    </div>
                 </div>
-                <span class="mt-10 text-2xl opacity-50">Apr
-                    15th, 2022</span>
             </div>
+            <!-- For mobile view  end-->
         </div>
-        <!-- For mobile view -->
-        <div class="md:hidden grid grid-cols-4 gap-3 pb-10">
-            <div class="flex flex-col items-center
-                                            relative gap-56 h-full">
-                <div class="h-full w-1 bg-[#FFD600]
-                                                absolute z-0"></div>
-                <div class="icon-shadow bg-zinc-900
-                                                text-[#FFD600] rounded-full p-2
-                                                z-50 w-18 h-18 flex items-center
-                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
-                <div class="icon-shadow bg-zinc-900
-                                                text-[#FFD600] rounded-full p-2
-                                                z-50 w-18 h-18 flex items-center
-                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
-                <div class="icon-shadow bg-zinc-900
-                                                text-[#FFD600] rounded-full p-2
-                                                z-50 w-18 h-18 flex items-center
-                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
-                <div class="icon-shadow bg-zinc-900
-                                                text-[#FFD600] rounded-full p-2
-                                                z-50 w-18 h-18 flex items-center
-                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
-                <div class="icon-shadow bg-zinc-900
-                                                text-[#FFD600] rounded-full p-2
-                                                z-50 w-18 h-18 flex items-center
-                                                justify-center"><img src="Assets/images/cryptic-icon.png" alt=""></div>
-            </div>
-            <div class="flex flex-col gap-5 col-span-3">
-                <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
-                                            pt-8 pb-5 border-b-4
-                                            border-[#FFD600] rounded-b-md
-                                            ">
-                    <h1 class="text-3xl font-bold">Pre
-                        ICO</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
-                                                rounded">Read More</button>
-                    <p class="mt-4 text-2xl opacity-50">Jan 15th, 2022</p>
-                </div>
-                <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
-                                            pt-8 pb-5 border-b-4
-                                            border-[#FFD600] rounded-b-md
-                                            ">
-                    <h1 class="text-3xl font-bold">Cryptic
-                        ICO</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
-                                                rounded">Read More</button>
-                    <p class="mt-4 text-2xl opacity-50">Feb 15th, 2022</p>
-                </div>
-                <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
-                                            pt-8 pb-5 border-b-4
-                                            border-[#FFD600] rounded-b-md
-                                            ">
-                    <h1 class="text-3xl font-bold">CHP launch on Cryptic</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
-                                                rounded">Read More</button>
-                    <p class="mt-4 text-2xl opacity-50">Feb 22nd, 2022</p>
-                </div>
-                <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
-                                            pt-8 pb-5 border-b-4
-                                            border-[#FFD600] rounded-b-md
-                                            ">
-                    <h1 class="text-3xl font-bold">Cryptic Listed in Exchanges</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
-                                                rounded">Read More</button>
-                    <p class="mt-4 text-2xl opacity-50">Mar 4th, 2022</p>
-                </div>
-                <div class="bg-white w-11/12 md:w-8/12 pl-5 pr-16
-                                            pt-8 pb-5 border-b-4
-                                            border-[#FFD600] rounded-b-md
-                                            ">
-                    <h1 class="text-3xl font-bold">Mobile Application</h1>
-                    <p class="my-4">With a userbase of
-                        200 members, we were only just
-                        setting up camp.</p>
-                    <button class="btn bg-zinc-900
-                                                rounded">Read More</button>
-                    <p class="mt-4 text-2xl opacity-50">Apr
-                        15th, 2022</p>
-                </div>
-            </div>
-        </div>
-        <!-- For mobile view  end-->
     </div>
 
     <!-- =========================== Steps section/end =========================-->
@@ -592,7 +598,7 @@
             purchase is 50 Coins tokens. Get a bonus
             from 5% to 25% <br>
             on every token purchase</p>
-        <div class="flex flex-col flex-col-reverse md:flex-row  my-8 items-center">
+        <div class="container mx-auto flex flex-col flex-col-reverse md:flex-row  my-8 items-center">
             <div>
                 <p class="mb-7 text-zinc-600">No more
                     hassle. <br>
@@ -634,92 +640,94 @@
     </div>
     <!-- =========================== coin calculator section/end ===============-->
     <!-- =========================== News section ==============================-->
-    <div class="bg-slate-50 py-20">
-        <h1 class="text-center text-3xl font-bold
+    <div class="bg-slate-50">
+        <div class="container mx-auto py-20">
+            <h1 class="text-center text-3xl font-bold
                                     uppercase">News</h1>
-        <div class="w-[85px] mx-auto flex
+            <div class="w-[85px] mx-auto flex
                                     justify-between mt-3 mb-5">
-            <div class="bg-slate-900 rounded-lg border
+                <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-2"></div>
-            <div class="bg-slate-900 rounded-lg border
+                <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-4"></div>
-            <div class="bg-slate-900 rounded-lg border
+                <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-5"></div>
-            <div class="bg-slate-900 rounded-lg border
+                <div class="bg-slate-900 rounded-lg border
                                         h-1.5 w-8"></div>
-        </div>
-        <p class="text-center text-md mt-3 mb-10
+            </div>
+            <p class="text-center text-md mt-3 mb-10
                                     text-slate-600">It’s an ever-changing
-            business. To stay on top of the
-            game, don’t forget to keep yourself in the
-            know.</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-11 md:gap-5 mx-6">
-            <div class="card bg-transparent rounded-none
+                business. To stay on top of the
+                game, don’t forget to keep yourself in the
+                know.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-11 md:gap-5">
+                <div class="card bg-transparent rounded-none
                                         border">
-                <figure><img class="max-h-60 w-full" src="Assets//images/bitcoin-dollar.jpg" alt="Shoes" /></figure>
-                <div class="card-body px-0 pb-2">
-                    <h1 class="card-title leading-none
+                    <figure><img class="max-h-60 w-full" src="Assets//images/bitcoin-dollar.jpg" alt="Shoes" /></figure>
+                    <div class="card-body px-0 pb-2">
+                        <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">Bitcoin
-                        Looks for Price Support After
-                        Failed $10K
-                        Crossover</h1>
-                    <p class="mt-1 pb-2 text-gray-600
+                            Looks for Price Support After
+                            Failed $10K
+                            Crossover</h1>
+                        <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                        quia volup tas sit aspernatur
-                        aut
-                        odit
-                        aut fu sed quia conse quun tur
-                        magni dolor quia. </p>
-                    <div class="card-actions border-t
+                            quia volup tas sit aspernatur
+                            aut
+                            odit
+                            aut fu sed quia conse quun tur
+                            magni dolor quia. </p>
+                        <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                        <div><span>Post by </span><span class="font-bold">Robert
-                                Downey</span></div>
-                        <span>0 Comments</span>
+                            <div><span>Post by </span><span class="font-bold">Robert
+                                    Downey</span></div>
+                            <span>0 Comments</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card bg-transparent rounded-none
+                <div class="card bg-transparent rounded-none
                                         border">
-                <figure><img class="max-h-60 w-full" src="Assets//images/btc-2.jpeg" alt="Shoes" /></figure>
-                <div class="card-body px-0 pb-2">
-                    <h1 class="card-title leading-none
+                    <figure><img class="max-h-60 w-full" src="Assets//images/btc-2.jpeg" alt="Shoes" /></figure>
+                    <div class="card-body px-0 pb-2">
+                        <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">This
-                        Platform Aims to Disrupt the
-                        Esport
-                        Gambling Industry</h1>
-                    <p class="mt-1 pb-2 text-gray-600
+                            Platform Aims to Disrupt the
+                            Esport
+                            Gambling Industry</h1>
+                        <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                        quia volup tas sit aspernatur
-                        aut
-                        odit aut fu sed quia conse quun
-                        tur magni dolor quia.</p>
-                    <div class="card-actions border-t
+                            quia volup tas sit aspernatur
+                            aut
+                            odit aut fu sed quia conse quun
+                            tur magni dolor quia.</p>
+                        <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                        <div><span>Post by </span><span class="font-bold">Robert
-                                Downey</span></div>
-                        <span>0 Comments</span>
+                            <div><span>Post by </span><span class="font-bold">Robert
+                                    Downey</span></div>
+                            <span>0 Comments</span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card bg-transparent rounded-none
+                <div class="card bg-transparent rounded-none
                                         border">
-                <figure><img class="max-h-60 w-full" src="Assets//images/btc-3.jpg" alt="Shoes" /></figure>
-                <div class="card-body px-0 pb-2">
-                    <h1 class="card-title leading-none
+                    <figure><img class="max-h-60 w-full" src="Assets//images/btc-3.jpg" alt="Shoes" /></figure>
+                    <div class="card-body px-0 pb-2">
+                        <h1 class="card-title leading-none
                                                 text-xl px-4 font-bold">Crypto
-                        Fund Says Bitcoin Will Be the
-                        Biggest Bubble Ever</h1>
-                    <p class="mt-1 pb-2 text-gray-600
+                            Fund Says Bitcoin Will Be the
+                            Biggest Bubble Ever</h1>
+                        <p class="mt-1 pb-2 text-gray-600
                                                 px-4">Nemo enim ipsam voluptatem
-                        quia volup tas sit aspernatur
-                        aut
-                        odit aut fu sed quia conse quun
-                        tur magni dolor quia.</p>
-                    <div class="card-actions border-t
+                            quia volup tas sit aspernatur
+                            aut
+                            odit aut fu sed quia conse quun
+                            tur magni dolor quia.</p>
+                        <div class="card-actions border-t
                                                 py-4 gap-7 text-sm px-4">
-                        <div><span>Post by </span><span class="font-bold">Robert
-                                Downey</span></div>
-                        <span>0 Comments</span>
+                            <div><span>Post by </span><span class="font-bold">Robert
+                                    Downey</span></div>
+                            <span>0 Comments</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -727,198 +735,202 @@
     </div>
     <!-- =========================== News section/end ==========================-->
     <!-- =========================== Search section ============================-->
-    <div class="grid grid-cols-1 md:grid-cols-2 items-center p-12 lg:p-28
-                                bg-base-200 text-base-content bg-[#FDE200]">
-        <div>
-            <h1 class="text-4xl font-bold mb-6">Know Your
-                Customer</h1>
-            <p>Sign up for our weekly industry updates,
-                insider
-                perspectives and
-                in-depth market analysis.</p>
-        </div>
-        <div>
-            <div class="form-control mt-10 lg:mt-0">
-                <div class="flex lg:gap-10">
-                    <input type="text" placeholder="Insert your email" class="input input-bordered
+    <div class="bg-[#FDE200]">
+        <div class="container mx-auto grid grid-cols-1 gap-x-20 md:grid-cols-2 items-center py-12 lg:py-28
+                                text-base-content ">
+            <div>
+                <h1 class="text-4xl font-bold mb-6">Know Your
+                    Customer</h1>
+                <p>Sign up for our weekly industry updates,
+                    insider
+                    perspectives and
+                    in-depth market analysis.</p>
+            </div>
+            <div>
+                <div class="form-control mt-10 lg:mt-0">
+                    <div class="flex lg:gap-10">
+                        <input type="text" placeholder="Insert your email" class="input input-bordered
                                                 w-full p-30 rounded" />
-                    <button class="btn btn-dark
+                        <button class="btn btn-dark
                                                 rounded-sm lg:py-4 lg:px-14">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- =========================== Search section-end ========================-->
     <!-- =========================== Cards of team ============================= -->
-    <div class="bg-[url('Assets/images/map-bg.jpg')]
-                                py-20">
-        <h1 class="text-center text-3xl font-bold
-                                    uppercase">Our Team</h1>
-        <div class="w-24 mx-auto flex justify-between
-                                    mt-3 mb-5">
-            <div class="bg-slate-900 rounded-lg border
-                                        h-1.5 w-2"></div>
-            <div class="bg-slate-900 rounded-lg border
-                                        h-1.5 w-4"></div>
-            <div class="bg-slate-900 rounded-lg border
-                                        h-1.5 w-5"></div>
-            <div class="bg-slate-900 rounded-lg border
-                                        h-1.5 w-8"></div>
-        </div>
-        <p class="text-center text-md mt-3 mb-8
-                                    text-slate-600">Our youth is only an
-            indication of our drive. Here you
-            have a team of experts, ready to
-            offer consultancy
-            when <br> needed.</p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-11 mx-6">
-            <div class="card bg-transparent
-                                        rounded-none">
-                <figure><img class="" src="Assets//images/model-1.jpg" alt="Shoes" /></figure>
-                <div class="card-body px-0">
-                    <h1 class="card-title leading-none
-                                                text-2xl">Robert bruce</h1>
-                    <h2 class="text-lg text-gray-600">Assistant
-                        Manager</h2>
-                    <p class="border-t border-black mt-2
-                                                pt-5 pb-2 text-gray-600">Lorem
-                        ipsum dolor sit amet consectetur
-                        adipisicing elit.consectetur
-                        adipisicing elit. </p>
-                    <div class="card-actions
-                                                justify-start ml-2">
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
-                        </span>
+    <div class="bg-[url('Assets/images/map-bg.jpg')]">
+        <div class="container mx-auto
+    py-20">
+            <h1 class="text-center text-3xl font-bold
+        uppercase">Our Team</h1>
+            <div class="w-24 mx-auto flex justify-between
+        mt-3 mb-5">
+                <div class="bg-slate-900 rounded-lg border
+            h-1.5 w-2"></div>
+                <div class="bg-slate-900 rounded-lg border
+            h-1.5 w-4"></div>
+                <div class="bg-slate-900 rounded-lg border
+            h-1.5 w-5"></div>
+                <div class="bg-slate-900 rounded-lg border
+            h-1.5 w-8"></div>
+            </div>
+            <p class="text-center text-md mt-3 mb-8
+        text-slate-600">Our youth is only an
+                indication of our drive. Here you
+                have a team of experts, ready to
+                offer consultancy
+                when <br> needed.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-11">
+                <div class="card bg-transparent
+            rounded-none">
+                    <figure><img class="" src="Assets//images/model-1.jpg" alt="Shoes" /></figure>
+                    <div class="card-body px-0">
+                        <h1 class="card-title leading-none
+                    text-2xl">Robert bruce</h1>
+                        <h2 class="text-lg text-gray-600">Assistant
+                            Manager</h2>
+                        <p class="border-t border-black mt-2
+                    pt-5 pb-2 text-gray-600">Lorem
+                            ipsum dolor sit amet consectetur
+                            adipisicing elit.consectetur
+                            adipisicing elit. </p>
+                        <div class="card-actions
+                    justify-start ml-2">
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card bg-transparent
-                                        rounded-none">
-                <figure><img class="" src="Assets//images/model-2.jpg" alt="Shoes" /></figure>
-                <div class="card-body px-0">
-                    <h1 class="card-title leading-none
-                                                text-2xl">Robert bruce</h1>
-                    <h2 class="text-lg text-gray-600">Assistant
-                        Manager</h2>
-                    <p class="border-t border-black mt-2
-                                                pt-5 pb-2 text-gray-600">Lorem
-                        ipsum dolor sit amet consectetur
-                        adipisicing elit.consectetur
-                        adipisicing elit. </p>
-                    <div class="card-actions
-                                                justify-start ml-2">
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
-                        </span>
+                <div class="card bg-transparent
+            rounded-none">
+                    <figure><img class="" src="Assets//images/model-2.jpg" alt="Shoes" /></figure>
+                    <div class="card-body px-0">
+                        <h1 class="card-title leading-none
+                    text-2xl">Robert bruce</h1>
+                        <h2 class="text-lg text-gray-600">Assistant
+                            Manager</h2>
+                        <p class="border-t border-black mt-2
+                    pt-5 pb-2 text-gray-600">Lorem
+                            ipsum dolor sit amet consectetur
+                            adipisicing elit.consectetur
+                            adipisicing elit. </p>
+                        <div class="card-actions
+                    justify-start ml-2">
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="card bg-transparent
-                                        rounded-none">
-                <figure><img class="" src="Assets//images/model-3.jpg" alt="Shoes" /></figure>
-                <div class="card-body px-0">
-                    <h1 class="card-title leading-none
-                                                text-2xl">Robert bruce</h1>
-                    <h2 class="text-lg text-gray-600">Assistant
-                        Manager</h2>
-                    <p class="border-t border-black mt-2
-                                                pt-5 pb-2 text-gray-600">Lorem
-                        ipsum dolor sit amet consectetur
-                        adipisicing elit.consectetur
-                        adipisicing elit. </p>
-                    <div class="card-actions
-                                                justify-start ml-2">
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
-                        </span>
-                        <span class="border rounded-full
-                                                    h-10 w-10 flex items-center
-                                                    justify-center
-                                                    hover:bg-yellow-400 ease-in
-                                                    duration-200
-                                                    hover:cursor-pointer">
-                            <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
-                        </span>
+                <div class="card bg-transparent
+            rounded-none">
+                    <figure><img class="" src="Assets//images/model-3.jpg" alt="Shoes" /></figure>
+                    <div class="card-body px-0">
+                        <h1 class="card-title leading-none
+                    text-2xl">Robert bruce</h1>
+                        <h2 class="text-lg text-gray-600">Assistant
+                            Manager</h2>
+                        <p class="border-t border-black mt-2
+                    pt-5 pb-2 text-gray-600">Lorem
+                            ipsum dolor sit amet consectetur
+                            adipisicing elit.consectetur
+                            adipisicing elit. </p>
+                        <div class="card-actions
+                    justify-start ml-2">
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon>
+                            </span>
+                            <span class="border rounded-full
+                        h-10 w-10 flex items-center
+                        justify-center
+                        hover:bg-yellow-400 ease-in
+                        duration-200
+                        hover:cursor-pointer">
+                                <iconify-icon icon="akar-icons:vimeo-fill"></iconify-icon>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -926,75 +938,75 @@
     </div>
     <!-- =========================== Cards of team-============================= -->
     <!--============================ Footer ===================================-->
-    <footer class="footer md:grid-cols-2 lg:grid-cols-4 md:grid-flow-row lg:grid-flow-col p-10 bg-neutral
-                                text-neutral-content
-                                bg-[url('Assets/images/footer.jpg')] bg-cover
-                                py-32">
-        <div>
-            <span class="footer-title text-white
-                                        opacity-100 text-3xl">Resources</span>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
-            </a>
-        </div>
-        <div>
-            <span class="footer-title text-white
-                                        opacity-100 text-3xl">Network</span>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
-            </a>
-        </div>
-        <div>
-            <span class="footer-title text-white
-                                        opacity-100 text-3xl">Support</span>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>About
-                us
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Contact
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Jobs
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Press
-                kit
-            </a>
-        </div>
-        <div>
-            <span class="footer-title text-white
-                                        opacity-100 text-3xl">About us</span>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Terms
-                of use
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Privacy
-                policy
-            </a>
-            <a class="link link-hover">
-                <iconify-icon icon="ep:arrow-right"></iconify-icon>Cookie
-                policy
-            </a>
+    <footer class="bg-[url('Assets/images/footer.jpg')] bg-cover bg-neutral">
+        <div class="container mx-auto footer md:grid-cols-2 lg:grid-cols-4 md:grid-flow-row lg:grid-flow-col py-10
+        text-neutral-content py-32">
+            <div>
+                <span class="footer-title text-white
+                                    opacity-100 text-3xl">Resources</span>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
+                </a>
+            </div>
+            <div>
+                <span class="footer-title text-white
+                                    opacity-100 text-3xl">Network</span>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Branding
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Design
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Marketing
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Advertisement
+                </a>
+            </div>
+            <div>
+                <span class="footer-title text-white
+                                    opacity-100 text-3xl">Support</span>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>About
+                    us
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Contact
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Jobs
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Press
+                    kit
+                </a>
+            </div>
+            <div>
+                <span class="footer-title text-white
+                                    opacity-100 text-3xl">About us</span>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Terms
+                    of use
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Privacy
+                    policy
+                </a>
+                <a class="link link-hover">
+                    <iconify-icon icon="ep:arrow-right"></iconify-icon>Cookie
+                    policy
+                </a>
+            </div>
         </div>
     </footer>
     <!-- <div class="cryptohopper-web-widget" data-id="2" data-chart_color="#ffd600" data-background_color="#ffd600" data-theme="custom" data-realtime="on" data-ticker_position="footer"></div> -->
