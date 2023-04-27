@@ -615,20 +615,20 @@
                     technicalities.</p>
                 <form class="flex flex-col md:flex-row items-center gap-6
                                             mt-10">
-                    <input type="text" class="input
+                    <input id="input" type="text" class="input
                                                 input-bordered text-center
                                                 text-white bg-black w-24
-                                                rounded" value="1" />
+                                                rounded" value="1" onkeyup="calc()"/>
                     <label for="" class="font-bold">BTC
                         =</label>
                     <div class="flex items-center gap-5">
-                        <input type="text" class="input
+                        <input id="result" type="text" class="input
                                                 input-bordered text-center
                                                 text-white bg-black w-36
                                                 rounded" value="20,000" />
-                        <select class="select w-24 max-w-xs
+                        <select id="selected" class="select w-24 max-w-xs
                                                 text-white bg-black border-0
-                                                rounded">
+                                                rounded" onchange="calc()">
                             <option>USD</option>
                             <option>EUR</option>
                         </select>
@@ -1031,6 +1031,19 @@
                 countdown: true
             });
         });
+
+        function calc(){
+            const input = document.getElementById('input').value
+            const result = document.getElementById('result').value
+            const selected = document.getElementById('selected').value
+            if(selected === 'EUR'){
+               return document.getElementById('result').value = input*18080
+            }
+            else{
+              return document.getElementById('result').value = input*20000
+            }
+
+        }
     </script>
     <script src="https://www.cryptohopper.com/widgets/js/script"></script>
     <script src="Assets/script.js"></script>
